@@ -1,1520 +1,0 @@
-nohup: 忽略输入
-unique_user_list[39075]: ['787869532#2', '1502639338#2', '1695007541#2', '794452374#2', '1109158367#2']
-unique_pos_list[1902]: ['33702', '27703', '9501', '85000', '45200']
-origin_data[468212]: [[29379, [1351, 873], [741, 894], [130, 911], [777, 913]], [29379, [720, 1044], [130, 1057], [777, 1059]], [29379, [222, 717], [565, 718], [348, 719], [1857, 723]], [29379, [390, 861], [615, 874], [978, 889]], [29379, [348, 731], [1857, 734], [130, 747]]]
-test_data[137841]: [[29379, [1172, 601], [1618, 604], [1086, 605], [851, 611]], [29379, [1660, 765], [957, 790], [254, 790], [1708, 793]], [38200, [1438, 831], [1589, 832], [114, 833], [264, 836]], [26878, [1377, 1037], [1178, 1060], [1432, 1062]], [6720, [1054, 434], [184, 436], [798, 437]]]
-road_map_embedding[1902]: [[-1.0835762  -1.483687    1.4750361  -0.21652061  0.7393347  -1.1745162
-   0.20308313  0.24711749 -1.9458082   0.33173138 -0.08597557  0.6407262
-   0.1882692  -0.93426883  1.3995302   0.4570861   0.77725685 -1.216711
-  -1.488317   -0.05063406 -0.63216054 -1.6511116   0.075086    1.4993969
-   0.5640584  -1.2115797   1.5042956   0.32061782 -2.121633    0.31385413
-  -0.05779616 -0.5177101 ]
- [-1.3972123  -1.1040787   1.5550019  -0.26386154  1.7232338  -0.82098824
-  -1.1510836   1.1780518  -1.8660673  -0.75169045 -0.01962885  0.54007614
-   0.16242203 -0.65880686 -0.16807896 -1.4030185   0.16049689 -0.7504616
-  -1.153339   -0.4045774  -1.694619   -3.1630917   1.9297259   2.5565012
-   2.07343    -2.4934514  -0.19805026  0.19955713 -2.0154924  -1.1053216
-  -0.45171344 -0.8280066 ]]
-transport_map_embedding[1902]: [[ 0.00445417 -0.02302577  0.13004346  0.03516193 -0.0172088  -0.17150402
-  -0.08720036  0.0505298  -0.00109444 -0.05431546  0.01667891 -0.00526551
-   0.00076179 -0.03548498  0.00774212  0.03303128  0.08728175 -0.09075782
-  -0.07460544 -0.04413873 -0.00443739  0.08358805  0.06541963 -0.00577815
-   0.04287715  0.00580119  0.14879297  0.05064588 -0.01001155 -0.12097426
-  -0.01018076 -0.0610322 ]
- [-0.08448841 -0.05963827  0.14311269  0.04753962  0.02136411 -0.13730331
-  -0.00749943  0.04501046 -0.00065692  0.00018163 -0.01671387 -0.03893836
-   0.03798691 -0.02396387 -0.01514     0.02735405  0.02595437 -0.11835008
-  -0.03916104 -0.09780025  0.12890485  0.07714702  0.05466001  0.01729043
-   0.03132108 -0.03861672  0.00816461  0.10180961 -0.03925804 -0.12307169
-  -0.04322835 -0.07552601]]
-user_embedding[39075]: [array([-0.0260466 , -0.08605226, -0.204005  , -0.12681818,  0.07612186,
-       -0.12711728,  0.10694121,  0.0707994 , -0.2677652 ,  0.03759402,
-       -0.0887968 ,  0.05243145, -0.21232136,  0.1058132 , -0.13435312,
-        0.1840116 , -0.10763422,  0.13004108,  0.10476813,  0.02562899,
-       -0.19932745, -0.12356301, -0.07641362,  0.13227148, -0.27455944,
-        0.25388113, -0.04528323, -0.09099904,  0.02822892, -0.0236577 ,
-        0.05820929,  0.16536175], dtype=float32), array([ 0.07984743, -0.00116708, -0.06415267, -0.09364825,  0.0115152 ,
-        0.04506793,  0.04371402, -0.03513935,  0.03535499,  0.04662335,
-       -0.07462778, -0.02559685,  0.01432441,  0.00675611, -0.03461337,
-        0.04096787, -0.01497697,  0.06081977, -0.01017248,  0.00238042,
-        0.02816991, -0.00625679,  0.0915335 ,  0.05465044, -0.05473728,
-        0.034086  ,  0.03803981,  0.02333329,  0.05737401,  0.06024021,
-        0.01579577, -0.03081685], dtype=float32)]
-len(selected_train_data) 1922779 [[29379, [777, 913], [[-2, -2], [1351, 873], [741, 894], [130, 911], [-3, -3], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1]]], [29379, [741, 894], [[-2, -2], [1351, 873], [-3, -3], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1]]], [29379, [130, 911], [[-2, -2], [1351, 873], [741, 894], [-3, -3], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1]]], [29379, [777, 1059], [[-2, -2], [720, 1044], [130, 1057], [-3, -3], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1]]], [29379, [130, 1057], [[-2, -2], [720, 1044], [-3, -3], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1]]]]
-len(selected_test_data) 137841 [[29379, [851, 611], [[-2, -2], [1172, 601], [1618, 604], [1086, 605], [-3, -3], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1]]], [29379, [1708, 793], [[-2, -2], [1660, 765], [957, 790], [254, 790], [-3, -3], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1]]], [38200, [264, 836], [[-2, -2], [1438, 831], [1589, 832], [114, 833], [-3, -3], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1]]], [26878, [1432, 1062], [[-2, -2], [1377, 1037], [1178, 1060], [-3, -3], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1]]], [6720, [798, 437], [[-2, -2], [1054, 434], [184, 436], [-3, -3], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1]]]]
-len(selected_train_data) 1922779 [[1796, [536, 1104], [[-2, -2], [1170, 1103], [-3, -3], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1]]], [26377, [690, 408], [[-2, -2], [220, 400], [1170, 404], [536, 405], [688, 405], [-3, -3], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1]]], [12422, [1436, 949], [[-2, -2], [105, 842], [235, 842], [799, 851], [350, 854], [1407, 857], [1651, 857], [1500, 862], [424, 867], [69, 876], [959, 878], [1436, 894], [424, 897], [1083, 915], [1052, 925], [-3, -3], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1]]], [16839, [1189, 864], [[-2, -2], [383, 858], [-3, -3], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1]]], [18308, [1442, 852], [[-2, -2], [690, 833], [-3, -3], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1]]]]
-len(selected_test_data) 137841 [[34270, [1754, 1023], [[-2, -2], [323, 1019], [113, 1020], [1720, 1023], [-3, -3], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1]]], [17840, [167, 1122], [[-2, -2], [1691, 1114], [1169, 1120], [-3, -3], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1]]], [35975, [463, 582], [[-2, -2], [507, 579], [-3, -3], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1]]], [28025, [1826, 898], [[-2, -2], [1287, 872], [-3, -3], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1]]], [20347, [1274, 374], [[-2, -2], [438, 373], [-3, -3], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1], [-1, -1]]]]
-
-==================== construct_dataset ====================
-len(user_list) 137841 [34270, 17840, 35975, 28025, 20347]
-len(traj_pos_list) 137841 [[-2, 323, 113, 1720, -3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-2, 1691, 1169, -3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-2, 507, -3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-2, 1287, -3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-2, 438, -3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]]
-len(traj_time_list) 137841 [[-2, 1019, 1020, 1023, -3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-2, 1114, 1120, -3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-2, 579, -3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-2, 872, -3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-2, 373, -3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]]
-len(label_pos_list) 137841 [1754, 167, 463, 1826, 1274]
-len(label_time_list) 137841 [1023, 1122, 582, 898, 374]
--------------------- [construct_dataset]: check GPU data --------------------
-user_list.device: cuda:1
--------------------- [construct_dataset]: check data shape --------------------
-user_list: torch.Size([137841])
-traj_pos_list: torch.Size([137841, 21])
-traj_time_list: torch.Size([137841, 21])
-label_pos_list: torch.Size([137841])
-label_time_list: torch.Size([137841])
-len(data_loader) 34
-
-==================== construct_dataset ====================
-len(user_list) 1922779 [1796, 26377, 12422, 16839, 18308]
-len(traj_pos_list) 1922779 [[-2, 1170, -3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-2, 220, 1170, 536, 688, -3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-2, 105, 235, 799, 350, 1407, 1651, 1500, 424, 69, 959, 1436, 424, 1083, 1052, -3, -1, -1, -1, -1, -1], [-2, 383, -3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-2, 690, -3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]]
-len(traj_time_list) 1922779 [[-2, 1103, -3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-2, 400, 404, 405, 405, -3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-2, 842, 842, 851, 854, 857, 857, 862, 867, 876, 878, 894, 897, 915, 925, -3, -1, -1, -1, -1, -1], [-2, 858, -3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1], [-2, 833, -3, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]]
-len(label_pos_list) 1922779 [536, 690, 1436, 1189, 1442]
-len(label_time_list) 1922779 [1104, 408, 949, 864, 852]
--------------------- [construct_dataset]: check GPU data --------------------
-user_list.device: cuda:1
--------------------- [construct_dataset]: check data shape --------------------
-user_list: torch.Size([1922779])
-traj_pos_list: torch.Size([1922779, 21])
-traj_time_list: torch.Size([1922779, 21])
-label_pos_list: torch.Size([1922779])
-label_time_list: torch.Size([1922779])
-len(data_loader) 470
-
-================================================== train-test ==================================================
-len(train_iter) 470
-len(test_iter) 34
-BERT definition: max_len 51
-road_map_embedding.Embedding.size() [1906, 64]
-road_map_embedding.size() torch.Size([1906, 32])
-transport_map_embedding.size() torch.Size([1906, 32])
-user_embedding.size() torch.Size([39075, 32])
-road_map_embedding tensor([[ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
-        [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
-        [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
-        [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
-        [-1.0836, -1.4837,  1.4750, -0.2165,  0.7393, -1.1745,  0.2031,  0.2471,
-         -1.9458,  0.3317, -0.0860,  0.6407,  0.1883, -0.9343,  1.3995,  0.4571,
-          0.7773, -1.2167, -1.4883, -0.0506, -0.6322, -1.6511,  0.0751,  1.4994,
-          0.5641, -1.2116,  1.5043,  0.3206, -2.1216,  0.3139, -0.0578, -0.5177]])
-transport_map_embedding tensor([[ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
-        [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
-        [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
-        [ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
-          0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000],
-        [ 0.0045, -0.0230,  0.1300,  0.0352, -0.0172, -0.1715, -0.0872,  0.0505,
-         -0.0011, -0.0543,  0.0167, -0.0053,  0.0008, -0.0355,  0.0077,  0.0330,
-          0.0873, -0.0908, -0.0746, -0.0441, -0.0044,  0.0836,  0.0654, -0.0058,
-          0.0429,  0.0058,  0.1488,  0.0506, -0.0100, -0.1210, -0.0102, -0.0610]])
--------------------------------------------------- Model.named_parameters --------------------------------------------------
-[embedding.user_embed.weight]->[torch.Size([39076, 64])],[requires_grad:True]
-[embedding.pos_embed.weight]->[torch.Size([1906, 64])],[requires_grad:True]
-[embedding.time_embed.weight]->[torch.Size([1444, 64])],[requires_grad:True]
-[embedding.doc2vec_user_embedding.weight]->[torch.Size([39075, 32])],[requires_grad:False]
-[embedding.road_map_embedding.weight]->[torch.Size([1906, 32])],[requires_grad:False]
-[embedding.transport_map_embedding.weight]->[torch.Size([1906, 32])],[requires_grad:False]
-[embedding.norm.weight]->[torch.Size([256])],[requires_grad:True]
-[embedding.norm.bias]->[torch.Size([256])],[requires_grad:True]
-[layers.0.enc_self_attn.W_Q.weight]->[torch.Size([768, 256])],[requires_grad:True]
-[layers.0.enc_self_attn.W_Q.bias]->[torch.Size([768])],[requires_grad:True]
-[layers.0.enc_self_attn.W_K.weight]->[torch.Size([768, 256])],[requires_grad:True]
-[layers.0.enc_self_attn.W_K.bias]->[torch.Size([768])],[requires_grad:True]
-[layers.0.enc_self_attn.W_V.weight]->[torch.Size([768, 256])],[requires_grad:True]
-[layers.0.enc_self_attn.W_V.bias]->[torch.Size([768])],[requires_grad:True]
-[layers.0.enc_self_attn.linear.weight]->[torch.Size([256, 768])],[requires_grad:True]
-[layers.0.enc_self_attn.linear.bias]->[torch.Size([256])],[requires_grad:True]
-[layers.0.enc_self_attn.norm.weight]->[torch.Size([256])],[requires_grad:True]
-[layers.0.enc_self_attn.norm.bias]->[torch.Size([256])],[requires_grad:True]
-[layers.0.pos_ffn.fc1.weight]->[torch.Size([128, 256])],[requires_grad:True]
-[layers.0.pos_ffn.fc1.bias]->[torch.Size([128])],[requires_grad:True]
-[layers.0.pos_ffn.fc2.weight]->[torch.Size([256, 128])],[requires_grad:True]
-[layers.0.pos_ffn.fc2.bias]->[torch.Size([256])],[requires_grad:True]
-[layers.1.enc_self_attn.W_Q.weight]->[torch.Size([768, 256])],[requires_grad:True]
-[layers.1.enc_self_attn.W_Q.bias]->[torch.Size([768])],[requires_grad:True]
-[layers.1.enc_self_attn.W_K.weight]->[torch.Size([768, 256])],[requires_grad:True]
-[layers.1.enc_self_attn.W_K.bias]->[torch.Size([768])],[requires_grad:True]
-[layers.1.enc_self_attn.W_V.weight]->[torch.Size([768, 256])],[requires_grad:True]
-[layers.1.enc_self_attn.W_V.bias]->[torch.Size([768])],[requires_grad:True]
-[layers.1.enc_self_attn.linear.weight]->[torch.Size([256, 768])],[requires_grad:True]
-[layers.1.enc_self_attn.linear.bias]->[torch.Size([256])],[requires_grad:True]
-[layers.1.enc_self_attn.norm.weight]->[torch.Size([256])],[requires_grad:True]
-[layers.1.enc_self_attn.norm.bias]->[torch.Size([256])],[requires_grad:True]
-[layers.1.pos_ffn.fc1.weight]->[torch.Size([128, 256])],[requires_grad:True]
-[layers.1.pos_ffn.fc1.bias]->[torch.Size([128])],[requires_grad:True]
-[layers.1.pos_ffn.fc2.weight]->[torch.Size([256, 128])],[requires_grad:True]
-[layers.1.pos_ffn.fc2.bias]->[torch.Size([256])],[requires_grad:True]
-[layers.2.enc_self_attn.W_Q.weight]->[torch.Size([768, 256])],[requires_grad:True]
-[layers.2.enc_self_attn.W_Q.bias]->[torch.Size([768])],[requires_grad:True]
-[layers.2.enc_self_attn.W_K.weight]->[torch.Size([768, 256])],[requires_grad:True]
-[layers.2.enc_self_attn.W_K.bias]->[torch.Size([768])],[requires_grad:True]
-[layers.2.enc_self_attn.W_V.weight]->[torch.Size([768, 256])],[requires_grad:True]
-[layers.2.enc_self_attn.W_V.bias]->[torch.Size([768])],[requires_grad:True]
-[layers.2.enc_self_attn.linear.weight]->[torch.Size([256, 768])],[requires_grad:True]
-[layers.2.enc_self_attn.linear.bias]->[torch.Size([256])],[requires_grad:True]
-[layers.2.enc_self_attn.norm.weight]->[torch.Size([256])],[requires_grad:True]
-[layers.2.enc_self_attn.norm.bias]->[torch.Size([256])],[requires_grad:True]
-[layers.2.pos_ffn.fc1.weight]->[torch.Size([128, 256])],[requires_grad:True]
-[layers.2.pos_ffn.fc1.bias]->[torch.Size([128])],[requires_grad:True]
-[layers.2.pos_ffn.fc2.weight]->[torch.Size([256, 128])],[requires_grad:True]
-[layers.2.pos_ffn.fc2.bias]->[torch.Size([256])],[requires_grad:True]
-[layers.3.enc_self_attn.W_Q.weight]->[torch.Size([768, 256])],[requires_grad:True]
-[layers.3.enc_self_attn.W_Q.bias]->[torch.Size([768])],[requires_grad:True]
-[layers.3.enc_self_attn.W_K.weight]->[torch.Size([768, 256])],[requires_grad:True]
-[layers.3.enc_self_attn.W_K.bias]->[torch.Size([768])],[requires_grad:True]
-[layers.3.enc_self_attn.W_V.weight]->[torch.Size([768, 256])],[requires_grad:True]
-[layers.3.enc_self_attn.W_V.bias]->[torch.Size([768])],[requires_grad:True]
-[layers.3.enc_self_attn.linear.weight]->[torch.Size([256, 768])],[requires_grad:True]
-[layers.3.enc_self_attn.linear.bias]->[torch.Size([256])],[requires_grad:True]
-[layers.3.enc_self_attn.norm.weight]->[torch.Size([256])],[requires_grad:True]
-[layers.3.enc_self_attn.norm.bias]->[torch.Size([256])],[requires_grad:True]
-[layers.3.pos_ffn.fc1.weight]->[torch.Size([128, 256])],[requires_grad:True]
-[layers.3.pos_ffn.fc1.bias]->[torch.Size([128])],[requires_grad:True]
-[layers.3.pos_ffn.fc2.weight]->[torch.Size([256, 128])],[requires_grad:True]
-[layers.3.pos_ffn.fc2.bias]->[torch.Size([256])],[requires_grad:True]
-[layers.4.enc_self_attn.W_Q.weight]->[torch.Size([768, 256])],[requires_grad:True]
-[layers.4.enc_self_attn.W_Q.bias]->[torch.Size([768])],[requires_grad:True]
-[layers.4.enc_self_attn.W_K.weight]->[torch.Size([768, 256])],[requires_grad:True]
-[layers.4.enc_self_attn.W_K.bias]->[torch.Size([768])],[requires_grad:True]
-[layers.4.enc_self_attn.W_V.weight]->[torch.Size([768, 256])],[requires_grad:True]
-[layers.4.enc_self_attn.W_V.bias]->[torch.Size([768])],[requires_grad:True]
-[layers.4.enc_self_attn.linear.weight]->[torch.Size([256, 768])],[requires_grad:True]
-[layers.4.enc_self_attn.linear.bias]->[torch.Size([256])],[requires_grad:True]
-[layers.4.enc_self_attn.norm.weight]->[torch.Size([256])],[requires_grad:True]
-[layers.4.enc_self_attn.norm.bias]->[torch.Size([256])],[requires_grad:True]
-[layers.4.pos_ffn.fc1.weight]->[torch.Size([128, 256])],[requires_grad:True]
-[layers.4.pos_ffn.fc1.bias]->[torch.Size([128])],[requires_grad:True]
-[layers.4.pos_ffn.fc2.weight]->[torch.Size([256, 128])],[requires_grad:True]
-[layers.4.pos_ffn.fc2.bias]->[torch.Size([256])],[requires_grad:True]
-[layers.5.enc_self_attn.W_Q.weight]->[torch.Size([768, 256])],[requires_grad:True]
-[layers.5.enc_self_attn.W_Q.bias]->[torch.Size([768])],[requires_grad:True]
-[layers.5.enc_self_attn.W_K.weight]->[torch.Size([768, 256])],[requires_grad:True]
-[layers.5.enc_self_attn.W_K.bias]->[torch.Size([768])],[requires_grad:True]
-[layers.5.enc_self_attn.W_V.weight]->[torch.Size([768, 256])],[requires_grad:True]
-[layers.5.enc_self_attn.W_V.bias]->[torch.Size([768])],[requires_grad:True]
-[layers.5.enc_self_attn.linear.weight]->[torch.Size([256, 768])],[requires_grad:True]
-[layers.5.enc_self_attn.linear.bias]->[torch.Size([256])],[requires_grad:True]
-[layers.5.enc_self_attn.norm.weight]->[torch.Size([256])],[requires_grad:True]
-[layers.5.enc_self_attn.norm.bias]->[torch.Size([256])],[requires_grad:True]
-[layers.5.pos_ffn.fc1.weight]->[torch.Size([128, 256])],[requires_grad:True]
-[layers.5.pos_ffn.fc1.bias]->[torch.Size([128])],[requires_grad:True]
-[layers.5.pos_ffn.fc2.weight]->[torch.Size([256, 128])],[requires_grad:True]
-[layers.5.pos_ffn.fc2.bias]->[torch.Size([256])],[requires_grad:True]
-[fc_task.0.weight]->[torch.Size([1906, 256])],[requires_grad:True]
-[fc_task.0.bias]->[torch.Size([1906])],[requires_grad:True]
-================================================== 总参数数量:9710546 ==================================================
-==================================================Start Training==================================================
-Epoch[1] Batch[50] - loss: 6.550106  ACC: 1.1475%(47/4096)  top1_acc: 0.0115  top5_acc: 0.0439
-Epoch[1] Batch[100] - loss: 6.328140  ACC: 1.1719%(48/4096)  top1_acc: 0.0117  top5_acc: 0.0549
-Epoch[1] Batch[150] - loss: 5.946340  ACC: 1.8799%(77/4096)  top1_acc: 0.0188  top5_acc: 0.0742
-Epoch[1] Batch[200] - loss: 5.725857  ACC: 3.6621%(150/4096)  top1_acc: 0.0366  top5_acc: 0.1340
-Epoch[1] Batch[250] - loss: 5.449006  ACC: 5.0049%(205/4096)  top1_acc: 0.0500  top5_acc: 0.1814
-Epoch[1] Batch[300] - loss: 5.116299  ACC: 8.7158%(357/4096)  top1_acc: 0.0872  top5_acc: 0.2566
-Epoch[1] Batch[350] - loss: 4.769261  ACC: 10.6201%(435/4096)  top1_acc: 0.1062  top5_acc: 0.2935
-Epoch[1] Batch[400] - loss: 4.637983  ACC: 13.1592%(539/4096)  top1_acc: 0.1316  top5_acc: 0.3235
-Epoch[1] Batch[450] - loss: 4.441812  ACC: 15.0879%(618/4096)  top1_acc: 0.1509  top5_acc: 0.3496
-Epoch[2] Batch[500] - loss: 4.309159  ACC: 17.2607%(707/4096)  top1_acc: 0.1726  top5_acc: 0.3772
-Epoch[2] Batch[550] - loss: 4.178129  ACC: 19.2627%(789/4096)  top1_acc: 0.1926  top5_acc: 0.3899
-Epoch[2] Batch[600] - loss: 4.108325  ACC: 20.1416%(825/4096)  top1_acc: 0.2014  top5_acc: 0.4136
-Epoch[2] Batch[650] - loss: 3.911879  ACC: 23.1689%(949/4096)  top1_acc: 0.2317  top5_acc: 0.4390
-Epoch[2] Batch[700] - loss: 3.841728  ACC: 23.1689%(949/4096)  top1_acc: 0.2317  top5_acc: 0.4565
-Epoch[2] Batch[750] - loss: 3.757412  ACC: 25.8057%(1057/4096)  top1_acc: 0.2581  top5_acc: 0.4680
-Epoch[2] Batch[800] - loss: 3.717354  ACC: 25.5371%(1046/4096)  top1_acc: 0.2554  top5_acc: 0.4822
-Epoch[2] Batch[850] - loss: 3.566128  ACC: 27.4414%(1124/4096)  top1_acc: 0.2744  top5_acc: 0.5127
-Epoch[2] Batch[900] - loss: 3.491052  ACC: 29.7852%(1220/4096)  top1_acc: 0.2979  top5_acc: 0.5344
-main.py:180: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
-  plt.subplot(2, 2, 1)
-main.py:185: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
-  plt.subplot(2, 2, 2)
-main.py:190: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
-  plt.subplot(2, 2, 3)
-main.py:195: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
-  plt.subplot(2, 2, 4)
-Epoch[3] Batch[950] - loss: 3.348289  ACC: 30.8838%(1265/4096)  top1_acc: 0.3088  top5_acc: 0.5496
-Epoch[3] Batch[1000] - loss: 3.353884  ACC: 31.1035%(1274/4096)  top1_acc: 0.3110  top5_acc: 0.5452
-Epoch[3] Batch[1050] - loss: 3.321768  ACC: 31.2256%(1279/4096)  top1_acc: 0.3123  top5_acc: 0.5642
-Epoch[3] Batch[1100] - loss: 3.221710  ACC: 32.3730%(1326/4096)  top1_acc: 0.3237  top5_acc: 0.5825
-Epoch[3] Batch[1150] - loss: 3.214634  ACC: 33.3008%(1364/4096)  top1_acc: 0.3330  top5_acc: 0.5791
-Epoch[3] Batch[1200] - loss: 3.149835  ACC: 34.1553%(1399/4096)  top1_acc: 0.3416  top5_acc: 0.5925
-Epoch[3] Batch[1250] - loss: 3.126447  ACC: 33.5449%(1374/4096)  top1_acc: 0.3354  top5_acc: 0.5911
-Epoch[3] Batch[1300] - loss: 3.128002  ACC: 33.8623%(1387/4096)  top1_acc: 0.3386  top5_acc: 0.5959
-Epoch[3] Batch[1350] - loss: 3.055419  ACC: 35.2539%(1444/4096)  top1_acc: 0.3525  top5_acc: 0.6042
-Epoch[3] Batch[1400] - loss: 3.069771  ACC: 34.9854%(1433/4096)  top1_acc: 0.3499  top5_acc: 0.6011
-Epoch[4] Batch[1450] - loss: 2.934592  ACC: 36.7676%(1506/4096)  top1_acc: 0.3677  top5_acc: 0.6184
-Epoch[4] Batch[1500] - loss: 2.926232  ACC: 37.4023%(1532/4096)  top1_acc: 0.3740  top5_acc: 0.6260
-Epoch[4] Batch[1550] - loss: 2.912916  ACC: 37.3779%(1531/4096)  top1_acc: 0.3738  top5_acc: 0.6296
-Epoch[4] Batch[1600] - loss: 2.895268  ACC: 38.4521%(1575/4096)  top1_acc: 0.3845  top5_acc: 0.6396
-Epoch[4] Batch[1650] - loss: 2.847172  ACC: 37.7197%(1545/4096)  top1_acc: 0.3772  top5_acc: 0.6404
-Epoch[4] Batch[1700] - loss: 2.928608  ACC: 37.0117%(1516/4096)  top1_acc: 0.3701  top5_acc: 0.6360
-Epoch[4] Batch[1750] - loss: 2.839669  ACC: 38.0615%(1559/4096)  top1_acc: 0.3806  top5_acc: 0.6489
-Epoch[4] Batch[1800] - loss: 2.786636  ACC: 40.1611%(1645/4096)  top1_acc: 0.4016  top5_acc: 0.6560
-Epoch[4] Batch[1850] - loss: 2.798174  ACC: 39.0137%(1598/4096)  top1_acc: 0.3901  top5_acc: 0.6521
-Epoch[5] Batch[1900] - loss: 2.799937  ACC: 39.1602%(1604/4096)  top1_acc: 0.3916  top5_acc: 0.6538
-Epoch[5] Batch[1950] - loss: 2.732196  ACC: 39.1602%(1604/4096)  top1_acc: 0.3916  top5_acc: 0.6624
-Epoch[5] Batch[2000] - loss: 2.686825  ACC: 40.6494%(1665/4096)  top1_acc: 0.4065  top5_acc: 0.6689
-Epoch[5] Batch[2050] - loss: 2.650257  ACC: 41.1621%(1686/4096)  top1_acc: 0.4116  top5_acc: 0.6792
-Epoch[5] Batch[2100] - loss: 2.717688  ACC: 39.9414%(1636/4096)  top1_acc: 0.3994  top5_acc: 0.6636
-Epoch[5] Batch[2150] - loss: 2.703727  ACC: 40.2832%(1650/4096)  top1_acc: 0.4028  top5_acc: 0.6738
-Epoch[5] Batch[2200] - loss: 2.673194  ACC: 40.8447%(1673/4096)  top1_acc: 0.4084  top5_acc: 0.6772
-Epoch[5] Batch[2250] - loss: 2.651405  ACC: 41.5039%(1700/4096)  top1_acc: 0.4150  top5_acc: 0.6768
-Epoch[5] Batch[2300] - loss: 2.616454  ACC: 41.9922%(1720/4096)  top1_acc: 0.4199  top5_acc: 0.6780
-Epoch[5] Batch[2350] - loss: 2.581460  ACC: 41.1966%(723/1755)  top1_acc: 0.4120  top5_acc: 0.6792
-############################################################Periodic Test############################################################
-model_eval data_iter 34
-Test[0] -  batch_top1_acc: 0.3311%  batch_top5_acc: 0.6111%
-Test[1] -  batch_top1_acc: 0.3208%  batch_top5_acc: 0.5891%
-Test[2] -  batch_top1_acc: 0.3162%  batch_top5_acc: 0.5781%
-Test[3] -  batch_top1_acc: 0.3254%  batch_top5_acc: 0.5994%
-Test[4] -  batch_top1_acc: 0.3118%  batch_top5_acc: 0.5916%
-Test[5] -  batch_top1_acc: 0.3208%  batch_top5_acc: 0.5918%
-Test[6] -  batch_top1_acc: 0.3325%  batch_top5_acc: 0.5896%
-Test[7] -  batch_top1_acc: 0.3354%  batch_top5_acc: 0.6040%
-Test[8] -  batch_top1_acc: 0.3276%  batch_top5_acc: 0.6023%
-Test[9] -  batch_top1_acc: 0.3091%  batch_top5_acc: 0.5813%
-Test[10] -  batch_top1_acc: 0.3147%  batch_top5_acc: 0.5881%
-Test[11] -  batch_top1_acc: 0.3196%  batch_top5_acc: 0.6013%
-Test[12] -  batch_top1_acc: 0.3274%  batch_top5_acc: 0.5964%
-Test[13] -  batch_top1_acc: 0.3340%  batch_top5_acc: 0.6104%
-Test[14] -  batch_top1_acc: 0.3337%  batch_top5_acc: 0.6016%
-Test[15] -  batch_top1_acc: 0.3108%  batch_top5_acc: 0.5813%
-Test[16] -  batch_top1_acc: 0.3254%  batch_top5_acc: 0.5916%
-Test[17] -  batch_top1_acc: 0.3271%  batch_top5_acc: 0.6006%
-Test[18] -  batch_top1_acc: 0.3289%  batch_top5_acc: 0.5969%
-Test[19] -  batch_top1_acc: 0.3201%  batch_top5_acc: 0.5957%
-Test[20] -  batch_top1_acc: 0.3196%  batch_top5_acc: 0.5852%
-Test[21] -  batch_top1_acc: 0.3184%  batch_top5_acc: 0.5994%
-Test[22] -  batch_top1_acc: 0.3064%  batch_top5_acc: 0.5876%
-Test[23] -  batch_top1_acc: 0.3228%  batch_top5_acc: 0.5994%
-Test[24] -  batch_top1_acc: 0.3257%  batch_top5_acc: 0.5930%
-Test[25] -  batch_top1_acc: 0.3237%  batch_top5_acc: 0.6003%
-Test[26] -  batch_top1_acc: 0.3132%  batch_top5_acc: 0.5918%
-Test[27] -  batch_top1_acc: 0.3081%  batch_top5_acc: 0.5923%
-Test[28] -  batch_top1_acc: 0.3154%  batch_top5_acc: 0.5947%
-Test[29] -  batch_top1_acc: 0.3206%  batch_top5_acc: 0.6067%
-Test[30] -  batch_top1_acc: 0.3264%  batch_top5_acc: 0.5977%
-Test[31] -  batch_top1_acc: 0.3130%  batch_top5_acc: 0.5935%
-Test[32] -  batch_top1_acc: 0.3201%  batch_top5_acc: 0.5923%
-Test[33] -  batch_top1_acc: 0.3165%  batch_top5_acc: 0.5915%
-Evaluation - loss: 0.000000  ACC: 32.1290%(44287/137841)  top1_acc: 0.3213%  top5_acc: 0.5950%
-test current performance
-[top1 ACC	top5 ACC]
-[0.32129047235583025, 0.5949608607018231]
-############################################################Over############################################################
-Save Model: train_33, ACC: 32.1290%
-
-Epoch[6] Batch[2400] - loss: 2.587429  ACC: 43.3594%(1776/4096)  top1_acc: 0.4336  top5_acc: 0.6941
-Epoch[6] Batch[2450] - loss: 2.590165  ACC: 42.3096%(1733/4096)  top1_acc: 0.4231  top5_acc: 0.6848
-Epoch[6] Batch[2500] - loss: 2.633853  ACC: 41.1621%(1686/4096)  top1_acc: 0.4116  top5_acc: 0.6821
-Epoch[6] Batch[2550] - loss: 2.574697  ACC: 41.9922%(1720/4096)  top1_acc: 0.4199  top5_acc: 0.6985
-Epoch[6] Batch[2600] - loss: 2.630937  ACC: 40.0879%(1642/4096)  top1_acc: 0.4009  top5_acc: 0.6758
-Epoch[6] Batch[2650] - loss: 2.600173  ACC: 40.9180%(1676/4096)  top1_acc: 0.4092  top5_acc: 0.6814
-Epoch[6] Batch[2700] - loss: 2.664580  ACC: 41.6016%(1704/4096)  top1_acc: 0.4160  top5_acc: 0.6812
-Epoch[6] Batch[2750] - loss: 2.554941  ACC: 43.1396%(1767/4096)  top1_acc: 0.4314  top5_acc: 0.7083
-Epoch[6] Batch[2800] - loss: 2.552507  ACC: 42.9688%(1760/4096)  top1_acc: 0.4297  top5_acc: 0.6951
-Epoch[7] Batch[2850] - loss: 2.499898  ACC: 42.3828%(1736/4096)  top1_acc: 0.4238  top5_acc: 0.7134
-Epoch[7] Batch[2900] - loss: 2.509901  ACC: 43.3594%(1776/4096)  top1_acc: 0.4336  top5_acc: 0.7041
-Epoch[7] Batch[2950] - loss: 2.527993  ACC: 42.7246%(1750/4096)  top1_acc: 0.4272  top5_acc: 0.7063
-Epoch[7] Batch[3000] - loss: 2.574975  ACC: 42.4072%(1737/4096)  top1_acc: 0.4241  top5_acc: 0.7085
-Epoch[7] Batch[3050] - loss: 2.466457  ACC: 44.2627%(1813/4096)  top1_acc: 0.4426  top5_acc: 0.7117
-Epoch[7] Batch[3100] - loss: 2.562629  ACC: 43.2129%(1770/4096)  top1_acc: 0.4321  top5_acc: 0.6941
-Epoch[7] Batch[3150] - loss: 2.563514  ACC: 43.4082%(1778/4096)  top1_acc: 0.4341  top5_acc: 0.7031
-Epoch[7] Batch[3200] - loss: 2.553761  ACC: 42.6514%(1747/4096)  top1_acc: 0.4265  top5_acc: 0.6963
-Epoch[7] Batch[3250] - loss: 2.528493  ACC: 43.4814%(1781/4096)  top1_acc: 0.4348  top5_acc: 0.7073
-Epoch[8] Batch[3300] - loss: 2.461691  ACC: 43.8965%(1798/4096)  top1_acc: 0.4390  top5_acc: 0.7119
-Epoch[8] Batch[3350] - loss: 2.445319  ACC: 44.2139%(1811/4096)  top1_acc: 0.4421  top5_acc: 0.7131
-Epoch[8] Batch[3400] - loss: 2.488030  ACC: 43.3105%(1774/4096)  top1_acc: 0.4331  top5_acc: 0.7131
-Epoch[8] Batch[3450] - loss: 2.425756  ACC: 43.0664%(1764/4096)  top1_acc: 0.4307  top5_acc: 0.7319
-Epoch[8] Batch[3500] - loss: 2.461031  ACC: 43.8232%(1795/4096)  top1_acc: 0.4382  top5_acc: 0.7136
-Epoch[8] Batch[3550] - loss: 2.417785  ACC: 45.0439%(1845/4096)  top1_acc: 0.4504  top5_acc: 0.7273
-Epoch[8] Batch[3600] - loss: 2.402692  ACC: 45.0928%(1847/4096)  top1_acc: 0.4509  top5_acc: 0.7268
-Epoch[8] Batch[3650] - loss: 2.416994  ACC: 43.9697%(1801/4096)  top1_acc: 0.4397  top5_acc: 0.7197
-Epoch[8] Batch[3700] - loss: 2.480635  ACC: 42.3584%(1735/4096)  top1_acc: 0.4236  top5_acc: 0.7126
-Epoch[8] Batch[3750] - loss: 2.411072  ACC: 44.8486%(1837/4096)  top1_acc: 0.4485  top5_acc: 0.7261
-Epoch[9] Batch[3800] - loss: 2.409700  ACC: 44.3359%(1816/4096)  top1_acc: 0.4434  top5_acc: 0.7271
-Epoch[9] Batch[3850] - loss: 2.457166  ACC: 44.1895%(1810/4096)  top1_acc: 0.4419  top5_acc: 0.7129
-Epoch[9] Batch[3900] - loss: 2.427041  ACC: 44.5557%(1825/4096)  top1_acc: 0.4456  top5_acc: 0.7273
-Epoch[9] Batch[3950] - loss: 2.407328  ACC: 45.1172%(1848/4096)  top1_acc: 0.4512  top5_acc: 0.7271
-Epoch[9] Batch[4000] - loss: 2.346814  ACC: 44.1650%(1809/4096)  top1_acc: 0.4417  top5_acc: 0.7354
-Epoch[9] Batch[4050] - loss: 2.383062  ACC: 45.8008%(1876/4096)  top1_acc: 0.4580  top5_acc: 0.7322
-Epoch[9] Batch[4100] - loss: 2.330122  ACC: 45.7520%(1874/4096)  top1_acc: 0.4575  top5_acc: 0.7358
-Epoch[9] Batch[4150] - loss: 2.435930  ACC: 42.1875%(1728/4096)  top1_acc: 0.4219  top5_acc: 0.7083
-Epoch[9] Batch[4200] - loss: 2.323250  ACC: 46.6553%(1911/4096)  top1_acc: 0.4666  top5_acc: 0.7463
-Epoch[10] Batch[4250] - loss: 2.397545  ACC: 44.6289%(1828/4096)  top1_acc: 0.4463  top5_acc: 0.7253
-Epoch[10] Batch[4300] - loss: 2.357985  ACC: 45.8496%(1878/4096)  top1_acc: 0.4585  top5_acc: 0.7336
-Epoch[10] Batch[4350] - loss: 2.325922  ACC: 45.9717%(1883/4096)  top1_acc: 0.4597  top5_acc: 0.7422
-Epoch[10] Batch[4400] - loss: 2.390307  ACC: 44.8242%(1836/4096)  top1_acc: 0.4482  top5_acc: 0.7288
-Epoch[10] Batch[4450] - loss: 2.433239  ACC: 43.9209%(1799/4096)  top1_acc: 0.4392  top5_acc: 0.7185
-Epoch[10] Batch[4500] - loss: 2.396154  ACC: 44.0918%(1806/4096)  top1_acc: 0.4409  top5_acc: 0.7351
-Epoch[10] Batch[4550] - loss: 2.301896  ACC: 45.5078%(1864/4096)  top1_acc: 0.4551  top5_acc: 0.7415
-Epoch[10] Batch[4600] - loss: 2.339883  ACC: 46.1670%(1891/4096)  top1_acc: 0.4617  top5_acc: 0.7273
-Epoch[10] Batch[4650] - loss: 2.415827  ACC: 44.7998%(1835/4096)  top1_acc: 0.4480  top5_acc: 0.7271
-Epoch[10] Batch[4700] - loss: 2.395651  ACC: 43.0199%(755/1755)  top1_acc: 0.4302  top5_acc: 0.7350
-############################################################Periodic Test############################################################
-model_eval data_iter 34
-Test[0] -  batch_top1_acc: 0.3733%  batch_top5_acc: 0.6558%
-Test[1] -  batch_top1_acc: 0.3665%  batch_top5_acc: 0.6594%
-Test[2] -  batch_top1_acc: 0.3750%  batch_top5_acc: 0.6631%
-Test[3] -  batch_top1_acc: 0.3564%  batch_top5_acc: 0.6580%
-Test[4] -  batch_top1_acc: 0.3528%  batch_top5_acc: 0.6584%
-Test[5] -  batch_top1_acc: 0.3660%  batch_top5_acc: 0.6479%
-Test[6] -  batch_top1_acc: 0.3647%  batch_top5_acc: 0.6587%
-Test[7] -  batch_top1_acc: 0.3645%  batch_top5_acc: 0.6575%
-Test[8] -  batch_top1_acc: 0.3660%  batch_top5_acc: 0.6670%
-Test[9] -  batch_top1_acc: 0.3667%  batch_top5_acc: 0.6702%
-Test[10] -  batch_top1_acc: 0.3652%  batch_top5_acc: 0.6614%
-Test[11] -  batch_top1_acc: 0.3545%  batch_top5_acc: 0.6519%
-Test[12] -  batch_top1_acc: 0.3596%  batch_top5_acc: 0.6602%
-Test[13] -  batch_top1_acc: 0.3633%  batch_top5_acc: 0.6589%
-Test[14] -  batch_top1_acc: 0.3638%  batch_top5_acc: 0.6638%
-Test[15] -  batch_top1_acc: 0.3687%  batch_top5_acc: 0.6514%
-Test[16] -  batch_top1_acc: 0.3689%  batch_top5_acc: 0.6536%
-Test[17] -  batch_top1_acc: 0.3691%  batch_top5_acc: 0.6609%
-Test[18] -  batch_top1_acc: 0.3643%  batch_top5_acc: 0.6509%
-Test[19] -  batch_top1_acc: 0.3601%  batch_top5_acc: 0.6521%
-Test[20] -  batch_top1_acc: 0.3733%  batch_top5_acc: 0.6587%
-Test[21] -  batch_top1_acc: 0.3635%  batch_top5_acc: 0.6543%
-Test[22] -  batch_top1_acc: 0.3711%  batch_top5_acc: 0.6533%
-Test[23] -  batch_top1_acc: 0.3694%  batch_top5_acc: 0.6692%
-Test[24] -  batch_top1_acc: 0.3618%  batch_top5_acc: 0.6565%
-Test[25] -  batch_top1_acc: 0.3601%  batch_top5_acc: 0.6487%
-Test[26] -  batch_top1_acc: 0.3730%  batch_top5_acc: 0.6636%
-Test[27] -  batch_top1_acc: 0.3696%  batch_top5_acc: 0.6580%
-Test[28] -  batch_top1_acc: 0.3728%  batch_top5_acc: 0.6538%
-Test[29] -  batch_top1_acc: 0.3694%  batch_top5_acc: 0.6667%
-Test[30] -  batch_top1_acc: 0.3735%  batch_top5_acc: 0.6672%
-Test[31] -  batch_top1_acc: 0.3657%  batch_top5_acc: 0.6487%
-Test[32] -  batch_top1_acc: 0.3735%  batch_top5_acc: 0.6699%
-Test[33] -  batch_top1_acc: 0.3808%  batch_top5_acc: 0.6682%
-Evaluation - loss: 0.000000  ACC: 36.6531%(50523/137841)  top1_acc: 0.3665%  top5_acc: 0.6587%
-test current performance
-[top1 ACC	top5 ACC]
-[0.36653100311228154, 0.6586574386430742]
-############################################################Over############################################################
-Save Model: train_33, ACC: 36.6531%
-
-Epoch[11] Batch[4750] - loss: 2.337289  ACC: 46.4111%(1901/4096)  top1_acc: 0.4641  top5_acc: 0.7383
-Epoch[11] Batch[4800] - loss: 2.332802  ACC: 46.4111%(1901/4096)  top1_acc: 0.4641  top5_acc: 0.7424
-Epoch[11] Batch[4850] - loss: 2.263445  ACC: 47.2900%(1937/4096)  top1_acc: 0.4729  top5_acc: 0.7466
-Epoch[11] Batch[4900] - loss: 2.333348  ACC: 45.4102%(1860/4096)  top1_acc: 0.4541  top5_acc: 0.7322
-Epoch[11] Batch[4950] - loss: 2.339704  ACC: 44.5312%(1824/4096)  top1_acc: 0.4453  top5_acc: 0.7400
-Epoch[11] Batch[5000] - loss: 2.301455  ACC: 47.4609%(1944/4096)  top1_acc: 0.4746  top5_acc: 0.7415
-Epoch[11] Batch[5050] - loss: 2.352642  ACC: 44.9707%(1842/4096)  top1_acc: 0.4497  top5_acc: 0.7317
-Epoch[11] Batch[5100] - loss: 2.324590  ACC: 46.3867%(1900/4096)  top1_acc: 0.4639  top5_acc: 0.7363
-Epoch[11] Batch[5150] - loss: 2.316243  ACC: 46.1914%(1892/4096)  top1_acc: 0.4619  top5_acc: 0.7349
-Epoch[12] Batch[5200] - loss: 2.259544  ACC: 47.4365%(1943/4096)  top1_acc: 0.4744  top5_acc: 0.7427
-Epoch[12] Batch[5250] - loss: 2.297711  ACC: 47.0215%(1926/4096)  top1_acc: 0.4702  top5_acc: 0.7363
-Epoch[12] Batch[5300] - loss: 2.327702  ACC: 45.3613%(1858/4096)  top1_acc: 0.4536  top5_acc: 0.7380
-Epoch[12] Batch[5350] - loss: 2.329014  ACC: 45.5566%(1866/4096)  top1_acc: 0.4556  top5_acc: 0.7400
-Epoch[12] Batch[5400] - loss: 2.301388  ACC: 46.4600%(1903/4096)  top1_acc: 0.4646  top5_acc: 0.7417
-Epoch[12] Batch[5450] - loss: 2.323318  ACC: 46.1426%(1890/4096)  top1_acc: 0.4614  top5_acc: 0.7351
-Epoch[12] Batch[5500] - loss: 2.289535  ACC: 46.5332%(1906/4096)  top1_acc: 0.4653  top5_acc: 0.7451
-Epoch[12] Batch[5550] - loss: 2.326978  ACC: 45.6299%(1869/4096)  top1_acc: 0.4563  top5_acc: 0.7324
-Epoch[12] Batch[5600] - loss: 2.305849  ACC: 45.4102%(1860/4096)  top1_acc: 0.4541  top5_acc: 0.7478
-Epoch[13] Batch[5650] - loss: 2.252479  ACC: 46.7285%(1914/4096)  top1_acc: 0.4673  top5_acc: 0.7505
-Epoch[13] Batch[5700] - loss: 2.311299  ACC: 46.7773%(1916/4096)  top1_acc: 0.4678  top5_acc: 0.7437
-Epoch[13] Batch[5750] - loss: 2.285904  ACC: 47.3633%(1940/4096)  top1_acc: 0.4736  top5_acc: 0.7502
-Epoch[13] Batch[5800] - loss: 2.276390  ACC: 46.8506%(1919/4096)  top1_acc: 0.4685  top5_acc: 0.7441
-Epoch[13] Batch[5850] - loss: 2.232029  ACC: 47.7783%(1957/4096)  top1_acc: 0.4778  top5_acc: 0.7490
-Epoch[13] Batch[5900] - loss: 2.279504  ACC: 47.0947%(1929/4096)  top1_acc: 0.4709  top5_acc: 0.7424
-Epoch[13] Batch[5950] - loss: 2.260149  ACC: 46.6797%(1912/4096)  top1_acc: 0.4668  top5_acc: 0.7510
-Epoch[13] Batch[6000] - loss: 2.283416  ACC: 46.0693%(1887/4096)  top1_acc: 0.4607  top5_acc: 0.7397
-Epoch[13] Batch[6050] - loss: 2.249801  ACC: 47.0459%(1927/4096)  top1_acc: 0.4705  top5_acc: 0.7498
-Epoch[13] Batch[6100] - loss: 2.327007  ACC: 46.1914%(1892/4096)  top1_acc: 0.4619  top5_acc: 0.7407
-Epoch[14] Batch[6150] - loss: 2.144049  ACC: 48.3398%(1980/4096)  top1_acc: 0.4834  top5_acc: 0.7642
-Epoch[14] Batch[6200] - loss: 2.278821  ACC: 46.5332%(1906/4096)  top1_acc: 0.4653  top5_acc: 0.7476
-Epoch[14] Batch[6250] - loss: 2.231691  ACC: 46.4600%(1903/4096)  top1_acc: 0.4646  top5_acc: 0.7546
-Epoch[14] Batch[6300] - loss: 2.296797  ACC: 45.8740%(1879/4096)  top1_acc: 0.4587  top5_acc: 0.7488
-Epoch[14] Batch[6350] - loss: 2.255061  ACC: 46.5088%(1905/4096)  top1_acc: 0.4651  top5_acc: 0.7488
-Epoch[14] Batch[6400] - loss: 2.293817  ACC: 46.3867%(1900/4096)  top1_acc: 0.4639  top5_acc: 0.7498
-Epoch[14] Batch[6450] - loss: 2.243694  ACC: 46.3867%(1900/4096)  top1_acc: 0.4639  top5_acc: 0.7610
-Epoch[14] Batch[6500] - loss: 2.216154  ACC: 47.5098%(1946/4096)  top1_acc: 0.4751  top5_acc: 0.7534
-Epoch[14] Batch[6550] - loss: 2.249359  ACC: 46.9482%(1923/4096)  top1_acc: 0.4695  top5_acc: 0.7529
-Epoch[15] Batch[6600] - loss: 2.202487  ACC: 47.3145%(1938/4096)  top1_acc: 0.4731  top5_acc: 0.7627
-Epoch[15] Batch[6650] - loss: 2.269054  ACC: 46.3135%(1897/4096)  top1_acc: 0.4631  top5_acc: 0.7495
-Epoch[15] Batch[6700] - loss: 2.160766  ACC: 48.2910%(1978/4096)  top1_acc: 0.4829  top5_acc: 0.7637
-Epoch[15] Batch[6750] - loss: 2.229878  ACC: 47.0215%(1926/4096)  top1_acc: 0.4702  top5_acc: 0.7539
-Epoch[15] Batch[6800] - loss: 2.176576  ACC: 49.0234%(2008/4096)  top1_acc: 0.4902  top5_acc: 0.7612
-Epoch[15] Batch[6850] - loss: 2.260285  ACC: 46.0449%(1886/4096)  top1_acc: 0.4604  top5_acc: 0.7554
-Epoch[15] Batch[6900] - loss: 2.246331  ACC: 46.7773%(1916/4096)  top1_acc: 0.4678  top5_acc: 0.7537
-Epoch[15] Batch[6950] - loss: 2.240507  ACC: 47.3633%(1940/4096)  top1_acc: 0.4736  top5_acc: 0.7539
-Epoch[15] Batch[7000] - loss: 2.222198  ACC: 46.9727%(1924/4096)  top1_acc: 0.4697  top5_acc: 0.7605
-Epoch[15] Batch[7050] - loss: 2.305172  ACC: 45.9259%(806/1755)  top1_acc: 0.4593  top5_acc: 0.7459
-############################################################Periodic Test############################################################
-model_eval data_iter 34
-Test[0] -  batch_top1_acc: 0.3787%  batch_top5_acc: 0.6719%
-Test[1] -  batch_top1_acc: 0.3757%  batch_top5_acc: 0.6814%
-Test[2] -  batch_top1_acc: 0.3684%  batch_top5_acc: 0.6670%
-Test[3] -  batch_top1_acc: 0.3684%  batch_top5_acc: 0.6675%
-Test[4] -  batch_top1_acc: 0.3950%  batch_top5_acc: 0.6833%
-Test[5] -  batch_top1_acc: 0.3816%  batch_top5_acc: 0.6790%
-Test[6] -  batch_top1_acc: 0.3835%  batch_top5_acc: 0.6707%
-Test[7] -  batch_top1_acc: 0.3804%  batch_top5_acc: 0.6836%
-Test[8] -  batch_top1_acc: 0.3823%  batch_top5_acc: 0.6711%
-Test[9] -  batch_top1_acc: 0.3750%  batch_top5_acc: 0.6736%
-Test[10] -  batch_top1_acc: 0.3674%  batch_top5_acc: 0.6628%
-Test[11] -  batch_top1_acc: 0.3818%  batch_top5_acc: 0.6807%
-Test[12] -  batch_top1_acc: 0.3743%  batch_top5_acc: 0.6736%
-Test[13] -  batch_top1_acc: 0.3779%  batch_top5_acc: 0.6670%
-Test[14] -  batch_top1_acc: 0.3782%  batch_top5_acc: 0.6743%
-Test[15] -  batch_top1_acc: 0.3892%  batch_top5_acc: 0.6699%
-Test[16] -  batch_top1_acc: 0.3892%  batch_top5_acc: 0.6851%
-Test[17] -  batch_top1_acc: 0.3894%  batch_top5_acc: 0.6689%
-Test[18] -  batch_top1_acc: 0.3726%  batch_top5_acc: 0.6675%
-Test[19] -  batch_top1_acc: 0.3831%  batch_top5_acc: 0.6750%
-Test[20] -  batch_top1_acc: 0.3779%  batch_top5_acc: 0.6802%
-Test[21] -  batch_top1_acc: 0.3774%  batch_top5_acc: 0.6680%
-Test[22] -  batch_top1_acc: 0.3823%  batch_top5_acc: 0.6768%
-Test[23] -  batch_top1_acc: 0.3782%  batch_top5_acc: 0.6814%
-Test[24] -  batch_top1_acc: 0.3760%  batch_top5_acc: 0.6602%
-Test[25] -  batch_top1_acc: 0.3726%  batch_top5_acc: 0.6719%
-Test[26] -  batch_top1_acc: 0.3789%  batch_top5_acc: 0.6768%
-Test[27] -  batch_top1_acc: 0.3796%  batch_top5_acc: 0.6821%
-Test[28] -  batch_top1_acc: 0.3711%  batch_top5_acc: 0.6680%
-Test[29] -  batch_top1_acc: 0.3799%  batch_top5_acc: 0.6628%
-Test[30] -  batch_top1_acc: 0.3862%  batch_top5_acc: 0.6826%
-Test[31] -  batch_top1_acc: 0.3809%  batch_top5_acc: 0.6760%
-Test[32] -  batch_top1_acc: 0.3818%  batch_top5_acc: 0.6765%
-Test[33] -  batch_top1_acc: 0.3797%  batch_top5_acc: 0.6655%
-Evaluation - loss: 0.000000  ACC: 37.9249%(52276/137841)  top1_acc: 0.3792%  top5_acc: 0.6737%
-test current performance
-[top1 ACC	top5 ACC]
-[0.3792485544939459, 0.6736892506583673]
-############################################################Over############################################################
-Save Model: train_33, ACC: 37.9249%
-
-Epoch[16] Batch[7100] - loss: 2.210689  ACC: 47.6074%(1950/4096)  top1_acc: 0.4761  top5_acc: 0.7551
-Epoch[16] Batch[7150] - loss: 2.237352  ACC: 48.0957%(1970/4096)  top1_acc: 0.4810  top5_acc: 0.7532
-Epoch[16] Batch[7200] - loss: 2.233789  ACC: 47.3389%(1939/4096)  top1_acc: 0.4734  top5_acc: 0.7603
-Epoch[16] Batch[7250] - loss: 2.188305  ACC: 47.5098%(1946/4096)  top1_acc: 0.4751  top5_acc: 0.7612
-Epoch[16] Batch[7300] - loss: 2.280145  ACC: 45.0684%(1846/4096)  top1_acc: 0.4507  top5_acc: 0.7534
-Epoch[16] Batch[7350] - loss: 2.228624  ACC: 47.2656%(1936/4096)  top1_acc: 0.4727  top5_acc: 0.7483
-Epoch[16] Batch[7400] - loss: 2.203676  ACC: 47.3633%(1940/4096)  top1_acc: 0.4736  top5_acc: 0.7612
-Epoch[16] Batch[7450] - loss: 2.161419  ACC: 48.9746%(2006/4096)  top1_acc: 0.4897  top5_acc: 0.7656
-Epoch[16] Batch[7500] - loss: 2.198538  ACC: 48.3398%(1980/4096)  top1_acc: 0.4834  top5_acc: 0.7676
-Epoch[17] Batch[7550] - loss: 2.197426  ACC: 46.4355%(1902/4096)  top1_acc: 0.4644  top5_acc: 0.7656
-Epoch[17] Batch[7600] - loss: 2.223540  ACC: 47.4609%(1944/4096)  top1_acc: 0.4746  top5_acc: 0.7571
-Epoch[17] Batch[7650] - loss: 2.162928  ACC: 48.3398%(1980/4096)  top1_acc: 0.4834  top5_acc: 0.7698
-Epoch[17] Batch[7700] - loss: 2.195986  ACC: 47.9004%(1962/4096)  top1_acc: 0.4790  top5_acc: 0.7664
-Epoch[17] Batch[7750] - loss: 2.226021  ACC: 48.0957%(1970/4096)  top1_acc: 0.4810  top5_acc: 0.7546
-Epoch[17] Batch[7800] - loss: 2.301670  ACC: 45.8740%(1879/4096)  top1_acc: 0.4587  top5_acc: 0.7378
-Epoch[17] Batch[7850] - loss: 2.195082  ACC: 48.2666%(1977/4096)  top1_acc: 0.4827  top5_acc: 0.7610
-Epoch[17] Batch[7900] - loss: 2.173196  ACC: 48.4619%(1985/4096)  top1_acc: 0.4846  top5_acc: 0.7598
-Epoch[17] Batch[7950] - loss: 2.180621  ACC: 46.1426%(1890/4096)  top1_acc: 0.4614  top5_acc: 0.7734
-Epoch[18] Batch[8000] - loss: 2.123965  ACC: 48.3154%(1979/4096)  top1_acc: 0.4832  top5_acc: 0.7700
-Epoch[18] Batch[8050] - loss: 2.134081  ACC: 48.3398%(1980/4096)  top1_acc: 0.4834  top5_acc: 0.7686
-Epoch[18] Batch[8100] - loss: 2.179382  ACC: 47.9736%(1965/4096)  top1_acc: 0.4797  top5_acc: 0.7678
-Epoch[18] Batch[8150] - loss: 2.191299  ACC: 47.7539%(1956/4096)  top1_acc: 0.4775  top5_acc: 0.7720
-Epoch[18] Batch[8200] - loss: 2.110903  ACC: 49.1943%(2015/4096)  top1_acc: 0.4919  top5_acc: 0.7791
-Epoch[18] Batch[8250] - loss: 2.191396  ACC: 47.5586%(1948/4096)  top1_acc: 0.4756  top5_acc: 0.7622
-Epoch[18] Batch[8300] - loss: 2.182117  ACC: 48.0469%(1968/4096)  top1_acc: 0.4805  top5_acc: 0.7617
-Epoch[18] Batch[8350] - loss: 2.160670  ACC: 48.9746%(2006/4096)  top1_acc: 0.4897  top5_acc: 0.7637
-Epoch[18] Batch[8400] - loss: 2.132337  ACC: 49.9023%(2044/4096)  top1_acc: 0.4990  top5_acc: 0.7681
-Epoch[18] Batch[8450] - loss: 2.136289  ACC: 48.2422%(1976/4096)  top1_acc: 0.4824  top5_acc: 0.7793
-Epoch[19] Batch[8500] - loss: 2.132520  ACC: 48.8525%(2001/4096)  top1_acc: 0.4885  top5_acc: 0.7761
-Epoch[19] Batch[8550] - loss: 2.165479  ACC: 47.4609%(1944/4096)  top1_acc: 0.4746  top5_acc: 0.7720
-Epoch[19] Batch[8600] - loss: 2.132732  ACC: 48.5596%(1989/4096)  top1_acc: 0.4856  top5_acc: 0.7681
-Epoch[19] Batch[8650] - loss: 2.165323  ACC: 47.6562%(1952/4096)  top1_acc: 0.4766  top5_acc: 0.7637
-Epoch[19] Batch[8700] - loss: 2.139722  ACC: 49.2432%(2017/4096)  top1_acc: 0.4924  top5_acc: 0.7703
-Epoch[19] Batch[8750] - loss: 2.152436  ACC: 48.9014%(2003/4096)  top1_acc: 0.4890  top5_acc: 0.7700
-Epoch[19] Batch[8800] - loss: 2.159822  ACC: 48.7549%(1997/4096)  top1_acc: 0.4875  top5_acc: 0.7668
-Epoch[19] Batch[8850] - loss: 2.155103  ACC: 47.4365%(1943/4096)  top1_acc: 0.4744  top5_acc: 0.7700
-Epoch[19] Batch[8900] - loss: 2.142416  ACC: 48.9502%(2005/4096)  top1_acc: 0.4895  top5_acc: 0.7703
-Epoch[20] Batch[8950] - loss: 2.078006  ACC: 49.9512%(2046/4096)  top1_acc: 0.4995  top5_acc: 0.7856
-Epoch[20] Batch[9000] - loss: 2.082150  ACC: 48.8525%(2001/4096)  top1_acc: 0.4885  top5_acc: 0.7783
-Epoch[20] Batch[9050] - loss: 2.099751  ACC: 48.2666%(1977/4096)  top1_acc: 0.4827  top5_acc: 0.7759
-Epoch[20] Batch[9100] - loss: 2.101526  ACC: 48.9990%(2007/4096)  top1_acc: 0.4900  top5_acc: 0.7754
-Epoch[20] Batch[9150] - loss: 2.133348  ACC: 50.0488%(2050/4096)  top1_acc: 0.5005  top5_acc: 0.7710
-Epoch[20] Batch[9200] - loss: 2.095989  ACC: 49.3896%(2023/4096)  top1_acc: 0.4939  top5_acc: 0.7788
-Epoch[20] Batch[9250] - loss: 2.130269  ACC: 48.6328%(1992/4096)  top1_acc: 0.4863  top5_acc: 0.7771
-Epoch[20] Batch[9300] - loss: 2.140279  ACC: 48.4619%(1985/4096)  top1_acc: 0.4846  top5_acc: 0.7642
-Epoch[20] Batch[9350] - loss: 2.151227  ACC: 47.4121%(1942/4096)  top1_acc: 0.4741  top5_acc: 0.7683
-Epoch[20] Batch[9400] - loss: 2.241232  ACC: 46.7236%(820/1755)  top1_acc: 0.4672  top5_acc: 0.7499
-############################################################Periodic Test############################################################
-model_eval data_iter 34
-Test[0] -  batch_top1_acc: 0.3950%  batch_top5_acc: 0.6824%
-Test[1] -  batch_top1_acc: 0.3914%  batch_top5_acc: 0.6929%
-Test[2] -  batch_top1_acc: 0.3848%  batch_top5_acc: 0.6965%
-Test[3] -  batch_top1_acc: 0.3882%  batch_top5_acc: 0.6821%
-Test[4] -  batch_top1_acc: 0.3899%  batch_top5_acc: 0.6958%
-Test[5] -  batch_top1_acc: 0.3887%  batch_top5_acc: 0.6895%
-Test[6] -  batch_top1_acc: 0.3904%  batch_top5_acc: 0.6941%
-Test[7] -  batch_top1_acc: 0.3770%  batch_top5_acc: 0.6687%
-Test[8] -  batch_top1_acc: 0.3997%  batch_top5_acc: 0.7014%
-Test[9] -  batch_top1_acc: 0.3779%  batch_top5_acc: 0.6807%
-Test[10] -  batch_top1_acc: 0.3958%  batch_top5_acc: 0.6904%
-Test[11] -  batch_top1_acc: 0.3794%  batch_top5_acc: 0.6924%
-Test[12] -  batch_top1_acc: 0.3796%  batch_top5_acc: 0.6797%
-Test[13] -  batch_top1_acc: 0.3831%  batch_top5_acc: 0.6956%
-Test[14] -  batch_top1_acc: 0.3967%  batch_top5_acc: 0.6843%
-Test[15] -  batch_top1_acc: 0.3831%  batch_top5_acc: 0.6956%
-Test[16] -  batch_top1_acc: 0.3857%  batch_top5_acc: 0.6865%
-Test[17] -  batch_top1_acc: 0.3723%  batch_top5_acc: 0.6782%
-Test[18] -  batch_top1_acc: 0.3789%  batch_top5_acc: 0.6870%
-Test[19] -  batch_top1_acc: 0.3853%  batch_top5_acc: 0.6887%
-Test[20] -  batch_top1_acc: 0.3843%  batch_top5_acc: 0.6797%
-Test[21] -  batch_top1_acc: 0.3799%  batch_top5_acc: 0.6772%
-Test[22] -  batch_top1_acc: 0.3970%  batch_top5_acc: 0.6790%
-Test[23] -  batch_top1_acc: 0.3809%  batch_top5_acc: 0.6848%
-Test[24] -  batch_top1_acc: 0.3887%  batch_top5_acc: 0.6890%
-Test[25] -  batch_top1_acc: 0.3931%  batch_top5_acc: 0.6897%
-Test[26] -  batch_top1_acc: 0.3870%  batch_top5_acc: 0.6738%
-Test[27] -  batch_top1_acc: 0.3809%  batch_top5_acc: 0.6833%
-Test[28] -  batch_top1_acc: 0.3955%  batch_top5_acc: 0.6948%
-Test[29] -  batch_top1_acc: 0.3774%  batch_top5_acc: 0.6719%
-Test[30] -  batch_top1_acc: 0.3865%  batch_top5_acc: 0.6897%
-Test[31] -  batch_top1_acc: 0.3882%  batch_top5_acc: 0.6843%
-Test[32] -  batch_top1_acc: 0.4016%  batch_top5_acc: 0.6921%
-Test[33] -  batch_top1_acc: 0.3786%  batch_top5_acc: 0.6790%
-Evaluation - loss: 0.000000  ACC: 38.6612%(53291/137841)  top1_acc: 0.3866%  top5_acc: 0.6863%
-test current performance
-[top1 ACC	top5 ACC]
-[0.3866121110554915, 0.6862762168005165]
-############################################################Over############################################################
-Save Model: train_33, ACC: 38.6612%
-
-Epoch[21] Batch[9450] - loss: 2.127939  ACC: 48.6328%(1992/4096)  top1_acc: 0.4863  top5_acc: 0.7729
-Epoch[21] Batch[9500] - loss: 2.117046  ACC: 48.5840%(1990/4096)  top1_acc: 0.4858  top5_acc: 0.7793
-Epoch[21] Batch[9550] - loss: 2.101553  ACC: 48.0713%(1969/4096)  top1_acc: 0.4807  top5_acc: 0.7764
-Epoch[21] Batch[9600] - loss: 2.113456  ACC: 48.6816%(1994/4096)  top1_acc: 0.4868  top5_acc: 0.7725
-Epoch[21] Batch[9650] - loss: 2.135664  ACC: 48.6572%(1993/4096)  top1_acc: 0.4866  top5_acc: 0.7732
-Epoch[21] Batch[9700] - loss: 2.151335  ACC: 47.6807%(1953/4096)  top1_acc: 0.4768  top5_acc: 0.7729
-Epoch[21] Batch[9750] - loss: 2.056363  ACC: 49.6582%(2034/4096)  top1_acc: 0.4966  top5_acc: 0.7876
-Epoch[21] Batch[9800] - loss: 2.083872  ACC: 49.6094%(2032/4096)  top1_acc: 0.4961  top5_acc: 0.7832
-Epoch[21] Batch[9850] - loss: 2.115334  ACC: 48.6084%(1991/4096)  top1_acc: 0.4861  top5_acc: 0.7788
-Epoch[22] Batch[9900] - loss: 2.029237  ACC: 50.0000%(2048/4096)  top1_acc: 0.5000  top5_acc: 0.7886
-Epoch[22] Batch[9950] - loss: 2.069712  ACC: 49.6826%(2035/4096)  top1_acc: 0.4968  top5_acc: 0.7869
-Epoch[22] Batch[10000] - loss: 2.093626  ACC: 49.8291%(2041/4096)  top1_acc: 0.4983  top5_acc: 0.7778
-Epoch[22] Batch[10050] - loss: 2.143564  ACC: 47.6318%(1951/4096)  top1_acc: 0.4763  top5_acc: 0.7715
-Epoch[22] Batch[10100] - loss: 2.098449  ACC: 48.9014%(2003/4096)  top1_acc: 0.4890  top5_acc: 0.7725
-Epoch[22] Batch[10150] - loss: 2.141275  ACC: 47.6807%(1953/4096)  top1_acc: 0.4768  top5_acc: 0.7686
-Epoch[22] Batch[10200] - loss: 2.083100  ACC: 50.0977%(2052/4096)  top1_acc: 0.5010  top5_acc: 0.7834
-Epoch[22] Batch[10250] - loss: 2.105360  ACC: 48.7793%(1998/4096)  top1_acc: 0.4878  top5_acc: 0.7817
-Epoch[22] Batch[10300] - loss: 2.116663  ACC: 48.3887%(1982/4096)  top1_acc: 0.4839  top5_acc: 0.7759
-Epoch[23] Batch[10350] - loss: 2.076360  ACC: 49.4141%(2024/4096)  top1_acc: 0.4941  top5_acc: 0.7815
-Epoch[23] Batch[10400] - loss: 2.049149  ACC: 49.9512%(2046/4096)  top1_acc: 0.4995  top5_acc: 0.7927
-Epoch[23] Batch[10450] - loss: 2.087228  ACC: 48.6328%(1992/4096)  top1_acc: 0.4863  top5_acc: 0.7847
-Epoch[23] Batch[10500] - loss: 2.050641  ACC: 49.9268%(2045/4096)  top1_acc: 0.4993  top5_acc: 0.7905
-Epoch[23] Batch[10550] - loss: 2.119220  ACC: 48.6816%(1994/4096)  top1_acc: 0.4868  top5_acc: 0.7732
-Epoch[23] Batch[10600] - loss: 2.070589  ACC: 48.7793%(1998/4096)  top1_acc: 0.4878  top5_acc: 0.7859
-Epoch[23] Batch[10650] - loss: 2.074390  ACC: 49.1455%(2013/4096)  top1_acc: 0.4915  top5_acc: 0.7874
-Epoch[23] Batch[10700] - loss: 2.102324  ACC: 48.5840%(1990/4096)  top1_acc: 0.4858  top5_acc: 0.7786
-Epoch[23] Batch[10750] - loss: 2.090567  ACC: 49.0234%(2008/4096)  top1_acc: 0.4902  top5_acc: 0.7842
-Epoch[23] Batch[10800] - loss: 2.077541  ACC: 50.0732%(2051/4096)  top1_acc: 0.5007  top5_acc: 0.7778
-Epoch[24] Batch[10850] - loss: 2.087754  ACC: 49.1211%(2012/4096)  top1_acc: 0.4912  top5_acc: 0.7783
-Epoch[24] Batch[10900] - loss: 2.024366  ACC: 50.5859%(2072/4096)  top1_acc: 0.5059  top5_acc: 0.7979
-Epoch[24] Batch[10950] - loss: 2.063872  ACC: 50.2686%(2059/4096)  top1_acc: 0.5027  top5_acc: 0.7847
-Epoch[24] Batch[11000] - loss: 2.133419  ACC: 48.1201%(1971/4096)  top1_acc: 0.4812  top5_acc: 0.7756
-Epoch[24] Batch[11050] - loss: 2.052114  ACC: 50.0488%(2050/4096)  top1_acc: 0.5005  top5_acc: 0.7964
-Epoch[24] Batch[11100] - loss: 2.070286  ACC: 49.2188%(2016/4096)  top1_acc: 0.4922  top5_acc: 0.7842
-Epoch[24] Batch[11150] - loss: 2.055069  ACC: 50.2930%(2060/4096)  top1_acc: 0.5029  top5_acc: 0.7883
-Epoch[24] Batch[11200] - loss: 2.079970  ACC: 49.2920%(2019/4096)  top1_acc: 0.4929  top5_acc: 0.7825
-Epoch[24] Batch[11250] - loss: 2.063391  ACC: 49.5605%(2030/4096)  top1_acc: 0.4956  top5_acc: 0.7869
-Epoch[25] Batch[11300] - loss: 1.992485  ACC: 50.9766%(2088/4096)  top1_acc: 0.5098  top5_acc: 0.8005
-Epoch[25] Batch[11350] - loss: 2.039411  ACC: 49.8779%(2043/4096)  top1_acc: 0.4988  top5_acc: 0.7881
-Epoch[25] Batch[11400] - loss: 2.071229  ACC: 48.8770%(2002/4096)  top1_acc: 0.4888  top5_acc: 0.7827
-Epoch[25] Batch[11450] - loss: 2.042345  ACC: 49.7314%(2037/4096)  top1_acc: 0.4973  top5_acc: 0.7815
-Epoch[25] Batch[11500] - loss: 2.123935  ACC: 47.7539%(1956/4096)  top1_acc: 0.4775  top5_acc: 0.7759
-Epoch[25] Batch[11550] - loss: 2.074361  ACC: 49.4385%(2025/4096)  top1_acc: 0.4944  top5_acc: 0.7849
-Epoch[25] Batch[11600] - loss: 2.074061  ACC: 50.3662%(2063/4096)  top1_acc: 0.5037  top5_acc: 0.7781
-Epoch[25] Batch[11650] - loss: 2.022095  ACC: 50.9521%(2087/4096)  top1_acc: 0.5095  top5_acc: 0.7920
-Epoch[25] Batch[11700] - loss: 2.035611  ACC: 50.0000%(2048/4096)  top1_acc: 0.5000  top5_acc: 0.7878
-Epoch[25] Batch[11750] - loss: 2.010655  ACC: 49.3447%(866/1755)  top1_acc: 0.4934  top5_acc: 0.7920
-############################################################Periodic Test############################################################
-model_eval data_iter 34
-Test[0] -  batch_top1_acc: 0.3848%  batch_top5_acc: 0.6851%
-Test[1] -  batch_top1_acc: 0.3855%  batch_top5_acc: 0.6848%
-Test[2] -  batch_top1_acc: 0.3950%  batch_top5_acc: 0.6965%
-Test[3] -  batch_top1_acc: 0.3945%  batch_top5_acc: 0.6885%
-Test[4] -  batch_top1_acc: 0.3779%  batch_top5_acc: 0.6958%
-Test[5] -  batch_top1_acc: 0.3794%  batch_top5_acc: 0.6873%
-Test[6] -  batch_top1_acc: 0.3955%  batch_top5_acc: 0.6924%
-Test[7] -  batch_top1_acc: 0.3918%  batch_top5_acc: 0.6948%
-Test[8] -  batch_top1_acc: 0.3914%  batch_top5_acc: 0.6753%
-Test[9] -  batch_top1_acc: 0.3774%  batch_top5_acc: 0.6799%
-Test[10] -  batch_top1_acc: 0.3694%  batch_top5_acc: 0.6829%
-Test[11] -  batch_top1_acc: 0.4026%  batch_top5_acc: 0.6924%
-Test[12] -  batch_top1_acc: 0.3774%  batch_top5_acc: 0.6941%
-Test[13] -  batch_top1_acc: 0.3794%  batch_top5_acc: 0.6846%
-Test[14] -  batch_top1_acc: 0.4014%  batch_top5_acc: 0.6885%
-Test[15] -  batch_top1_acc: 0.3884%  batch_top5_acc: 0.6899%
-Test[16] -  batch_top1_acc: 0.3943%  batch_top5_acc: 0.7024%
-Test[17] -  batch_top1_acc: 0.3887%  batch_top5_acc: 0.6941%
-Test[18] -  batch_top1_acc: 0.3948%  batch_top5_acc: 0.6882%
-Test[19] -  batch_top1_acc: 0.3892%  batch_top5_acc: 0.6831%
-Test[20] -  batch_top1_acc: 0.3796%  batch_top5_acc: 0.6921%
-Test[21] -  batch_top1_acc: 0.3794%  batch_top5_acc: 0.6775%
-Test[22] -  batch_top1_acc: 0.4021%  batch_top5_acc: 0.6917%
-Test[23] -  batch_top1_acc: 0.3882%  batch_top5_acc: 0.6843%
-Test[24] -  batch_top1_acc: 0.3938%  batch_top5_acc: 0.6948%
-Test[25] -  batch_top1_acc: 0.3870%  batch_top5_acc: 0.6936%
-Test[26] -  batch_top1_acc: 0.3823%  batch_top5_acc: 0.6873%
-Test[27] -  batch_top1_acc: 0.3796%  batch_top5_acc: 0.6858%
-Test[28] -  batch_top1_acc: 0.3877%  batch_top5_acc: 0.6919%
-Test[29] -  batch_top1_acc: 0.3933%  batch_top5_acc: 0.6855%
-Test[30] -  batch_top1_acc: 0.3696%  batch_top5_acc: 0.6777%
-Test[31] -  batch_top1_acc: 0.3870%  batch_top5_acc: 0.6838%
-Test[32] -  batch_top1_acc: 0.3838%  batch_top5_acc: 0.6829%
-Test[33] -  batch_top1_acc: 0.4022%  batch_top5_acc: 0.6925%
-Evaluation - loss: 0.000000  ACC: 38.7330%(53390/137841)  top1_acc: 0.3873%  top5_acc: 0.6882%
-test current performance
-[top1 ACC	top5 ACC]
-[0.3873303298728245, 0.6882495048643001]
-############################################################Over############################################################
-Save Model: train_33, ACC: 38.7330%
-
-Epoch[26] Batch[11800] - loss: 2.016097  ACC: 48.6572%(1993/4096)  top1_acc: 0.4866  top5_acc: 0.7903
-Epoch[26] Batch[11850] - loss: 2.009146  ACC: 50.4150%(2065/4096)  top1_acc: 0.5042  top5_acc: 0.7803
-Epoch[26] Batch[11900] - loss: 2.045971  ACC: 50.0000%(2048/4096)  top1_acc: 0.5000  top5_acc: 0.7866
-Epoch[26] Batch[11950] - loss: 2.025479  ACC: 50.0977%(2052/4096)  top1_acc: 0.5010  top5_acc: 0.7881
-Epoch[26] Batch[12000] - loss: 2.004882  ACC: 51.2207%(2098/4096)  top1_acc: 0.5122  top5_acc: 0.7930
-Epoch[26] Batch[12050] - loss: 1.997864  ACC: 50.6836%(2076/4096)  top1_acc: 0.5068  top5_acc: 0.7864
-Epoch[26] Batch[12100] - loss: 2.057980  ACC: 50.5371%(2070/4096)  top1_acc: 0.5054  top5_acc: 0.7881
-Epoch[26] Batch[12150] - loss: 2.033853  ACC: 50.2686%(2059/4096)  top1_acc: 0.5027  top5_acc: 0.7854
-Epoch[26] Batch[12200] - loss: 2.025319  ACC: 50.0244%(2049/4096)  top1_acc: 0.5002  top5_acc: 0.7891
-Epoch[27] Batch[12250] - loss: 2.010794  ACC: 50.5371%(2070/4096)  top1_acc: 0.5054  top5_acc: 0.7937
-Epoch[27] Batch[12300] - loss: 2.025331  ACC: 49.4141%(2024/4096)  top1_acc: 0.4941  top5_acc: 0.7905
-Epoch[27] Batch[12350] - loss: 2.017593  ACC: 50.1465%(2054/4096)  top1_acc: 0.5015  top5_acc: 0.7917
-Epoch[27] Batch[12400] - loss: 2.020775  ACC: 50.3906%(2064/4096)  top1_acc: 0.5039  top5_acc: 0.7876
-Epoch[27] Batch[12450] - loss: 2.034492  ACC: 50.4150%(2065/4096)  top1_acc: 0.5042  top5_acc: 0.7869
-Epoch[27] Batch[12500] - loss: 2.025668  ACC: 50.1709%(2055/4096)  top1_acc: 0.5017  top5_acc: 0.7900
-Epoch[27] Batch[12550] - loss: 2.049233  ACC: 49.5850%(2031/4096)  top1_acc: 0.4958  top5_acc: 0.7844
-Epoch[27] Batch[12600] - loss: 2.027995  ACC: 49.7070%(2036/4096)  top1_acc: 0.4971  top5_acc: 0.7915
-Epoch[27] Batch[12650] - loss: 2.081107  ACC: 48.9014%(2003/4096)  top1_acc: 0.4890  top5_acc: 0.7834
-Epoch[28] Batch[12700] - loss: 1.944605  ACC: 51.9775%(2129/4096)  top1_acc: 0.5198  top5_acc: 0.8025
-Epoch[28] Batch[12750] - loss: 2.008534  ACC: 50.3174%(2061/4096)  top1_acc: 0.5032  top5_acc: 0.7927
-Epoch[28] Batch[12800] - loss: 1.958599  ACC: 51.1475%(2095/4096)  top1_acc: 0.5115  top5_acc: 0.8027
-Epoch[28] Batch[12850] - loss: 2.070385  ACC: 48.9746%(2006/4096)  top1_acc: 0.4897  top5_acc: 0.7856
-Epoch[28] Batch[12900] - loss: 1.977629  ACC: 51.9287%(2127/4096)  top1_acc: 0.5193  top5_acc: 0.7957
-Epoch[28] Batch[12950] - loss: 2.012833  ACC: 50.3662%(2063/4096)  top1_acc: 0.5037  top5_acc: 0.7969
-Epoch[28] Batch[13000] - loss: 2.045066  ACC: 49.3164%(2020/4096)  top1_acc: 0.4932  top5_acc: 0.7856
-Epoch[28] Batch[13050] - loss: 2.033932  ACC: 49.3164%(2020/4096)  top1_acc: 0.4932  top5_acc: 0.7898
-Epoch[28] Batch[13100] - loss: 1.955395  ACC: 52.1973%(2138/4096)  top1_acc: 0.5220  top5_acc: 0.8005
-Epoch[28] Batch[13150] - loss: 2.027546  ACC: 49.5361%(2029/4096)  top1_acc: 0.4954  top5_acc: 0.7935
-Epoch[29] Batch[13200] - loss: 2.022171  ACC: 50.5371%(2070/4096)  top1_acc: 0.5054  top5_acc: 0.7930
-Epoch[29] Batch[13250] - loss: 1.985758  ACC: 50.3906%(2064/4096)  top1_acc: 0.5039  top5_acc: 0.8000
-Epoch[29] Batch[13300] - loss: 1.949324  ACC: 50.7812%(2080/4096)  top1_acc: 0.5078  top5_acc: 0.8044
-Epoch[29] Batch[13350] - loss: 1.987893  ACC: 49.9756%(2047/4096)  top1_acc: 0.4998  top5_acc: 0.7969
-Epoch[29] Batch[13400] - loss: 1.982516  ACC: 51.3672%(2104/4096)  top1_acc: 0.5137  top5_acc: 0.7983
-Epoch[29] Batch[13450] - loss: 2.020565  ACC: 49.1699%(2014/4096)  top1_acc: 0.4917  top5_acc: 0.7961
-Epoch[29] Batch[13500] - loss: 1.953045  ACC: 51.4893%(2109/4096)  top1_acc: 0.5149  top5_acc: 0.8005
-Epoch[29] Batch[13550] - loss: 2.014250  ACC: 49.8047%(2040/4096)  top1_acc: 0.4980  top5_acc: 0.7908
-Epoch[29] Batch[13600] - loss: 2.014056  ACC: 50.3418%(2062/4096)  top1_acc: 0.5034  top5_acc: 0.7917
-Epoch[30] Batch[13650] - loss: 1.969272  ACC: 51.0986%(2093/4096)  top1_acc: 0.5110  top5_acc: 0.7991
-Epoch[30] Batch[13700] - loss: 1.914064  ACC: 53.5889%(2195/4096)  top1_acc: 0.5359  top5_acc: 0.8069
-Epoch[30] Batch[13750] - loss: 1.983436  ACC: 51.0010%(2089/4096)  top1_acc: 0.5100  top5_acc: 0.7998
-Epoch[30] Batch[13800] - loss: 1.973938  ACC: 50.8301%(2082/4096)  top1_acc: 0.5083  top5_acc: 0.7976
-Epoch[30] Batch[13850] - loss: 1.946266  ACC: 51.6846%(2117/4096)  top1_acc: 0.5168  top5_acc: 0.8032
-Epoch[30] Batch[13900] - loss: 1.988800  ACC: 50.5615%(2071/4096)  top1_acc: 0.5056  top5_acc: 0.7932
-Epoch[30] Batch[13950] - loss: 1.943203  ACC: 52.1240%(2135/4096)  top1_acc: 0.5212  top5_acc: 0.8049
-Epoch[30] Batch[14000] - loss: 1.992667  ACC: 50.7324%(2078/4096)  top1_acc: 0.5073  top5_acc: 0.7988
-Epoch[30] Batch[14050] - loss: 2.048762  ACC: 49.7559%(2038/4096)  top1_acc: 0.4976  top5_acc: 0.7920
-Epoch[30] Batch[14100] - loss: 1.970565  ACC: 50.5413%(887/1755)  top1_acc: 0.5054  top5_acc: 0.8000
-############################################################Periodic Test############################################################
-model_eval data_iter 34
-Test[0] -  batch_top1_acc: 0.3706%  batch_top5_acc: 0.6733%
-Test[1] -  batch_top1_acc: 0.3752%  batch_top5_acc: 0.6731%
-Test[2] -  batch_top1_acc: 0.3940%  batch_top5_acc: 0.6943%
-Test[3] -  batch_top1_acc: 0.3965%  batch_top5_acc: 0.6914%
-Test[4] -  batch_top1_acc: 0.3899%  batch_top5_acc: 0.6814%
-Test[5] -  batch_top1_acc: 0.3882%  batch_top5_acc: 0.6855%
-Test[6] -  batch_top1_acc: 0.3870%  batch_top5_acc: 0.6921%
-Test[7] -  batch_top1_acc: 0.3857%  batch_top5_acc: 0.6736%
-Test[8] -  batch_top1_acc: 0.3665%  batch_top5_acc: 0.6567%
-Test[9] -  batch_top1_acc: 0.3806%  batch_top5_acc: 0.6870%
-Test[10] -  batch_top1_acc: 0.3901%  batch_top5_acc: 0.6965%
-Test[11] -  batch_top1_acc: 0.3828%  batch_top5_acc: 0.6902%
-Test[12] -  batch_top1_acc: 0.3931%  batch_top5_acc: 0.6836%
-Test[13] -  batch_top1_acc: 0.3997%  batch_top5_acc: 0.6887%
-Test[14] -  batch_top1_acc: 0.3838%  batch_top5_acc: 0.6882%
-Test[15] -  batch_top1_acc: 0.3931%  batch_top5_acc: 0.6941%
-Test[16] -  batch_top1_acc: 0.3684%  batch_top5_acc: 0.6814%
-Test[17] -  batch_top1_acc: 0.3914%  batch_top5_acc: 0.6860%
-Test[18] -  batch_top1_acc: 0.3801%  batch_top5_acc: 0.6917%
-Test[19] -  batch_top1_acc: 0.3921%  batch_top5_acc: 0.6953%
-Test[20] -  batch_top1_acc: 0.3765%  batch_top5_acc: 0.6882%
-Test[21] -  batch_top1_acc: 0.3779%  batch_top5_acc: 0.6836%
-Test[22] -  batch_top1_acc: 0.3936%  batch_top5_acc: 0.6917%
-Test[23] -  batch_top1_acc: 0.3904%  batch_top5_acc: 0.7009%
-Test[24] -  batch_top1_acc: 0.3813%  batch_top5_acc: 0.6897%
-Test[25] -  batch_top1_acc: 0.3901%  batch_top5_acc: 0.6919%
-Test[26] -  batch_top1_acc: 0.3875%  batch_top5_acc: 0.6895%
-Test[27] -  batch_top1_acc: 0.3914%  batch_top5_acc: 0.6868%
-Test[28] -  batch_top1_acc: 0.3843%  batch_top5_acc: 0.6853%
-Test[29] -  batch_top1_acc: 0.3931%  batch_top5_acc: 0.7026%
-Test[30] -  batch_top1_acc: 0.3862%  batch_top5_acc: 0.6907%
-Test[31] -  batch_top1_acc: 0.3894%  batch_top5_acc: 0.7007%
-Test[32] -  batch_top1_acc: 0.3899%  batch_top5_acc: 0.6904%
-Test[33] -  batch_top1_acc: 0.3838%  batch_top5_acc: 0.6798%
-Evaluation - loss: 0.000000  ACC: 38.6024%(53210/137841)  top1_acc: 0.3860%  top5_acc: 0.6876%
-test current performance
-[top1 ACC	top5 ACC]
-[0.38602447747767354, 0.6876110881377819]
-############################################################Over############################################################
-Epoch[31] Batch[14150] - loss: 1.984959  ACC: 50.9766%(2088/4096)  top1_acc: 0.5098  top5_acc: 0.7900
-Epoch[31] Batch[14200] - loss: 1.973934  ACC: 49.5850%(2031/4096)  top1_acc: 0.4958  top5_acc: 0.8032
-Epoch[31] Batch[14250] - loss: 1.975443  ACC: 50.6836%(2076/4096)  top1_acc: 0.5068  top5_acc: 0.7952
-Epoch[31] Batch[14300] - loss: 1.956443  ACC: 51.0498%(2091/4096)  top1_acc: 0.5105  top5_acc: 0.8015
-Epoch[31] Batch[14350] - loss: 1.961650  ACC: 50.4150%(2065/4096)  top1_acc: 0.5042  top5_acc: 0.8054
-Epoch[31] Batch[14400] - loss: 1.955523  ACC: 50.9033%(2085/4096)  top1_acc: 0.5090  top5_acc: 0.7998
-Epoch[31] Batch[14450] - loss: 2.003011  ACC: 49.9512%(2046/4096)  top1_acc: 0.4995  top5_acc: 0.7883
-Epoch[31] Batch[14500] - loss: 1.986960  ACC: 50.8789%(2084/4096)  top1_acc: 0.5088  top5_acc: 0.7935
-Epoch[31] Batch[14550] - loss: 1.985811  ACC: 50.7568%(2079/4096)  top1_acc: 0.5076  top5_acc: 0.7971
-Epoch[32] Batch[14600] - loss: 1.867338  ACC: 52.9541%(2169/4096)  top1_acc: 0.5295  top5_acc: 0.8176
-Epoch[32] Batch[14650] - loss: 1.960464  ACC: 51.7334%(2119/4096)  top1_acc: 0.5173  top5_acc: 0.7952
-Epoch[32] Batch[14700] - loss: 1.935243  ACC: 50.7812%(2080/4096)  top1_acc: 0.5078  top5_acc: 0.8083
-Epoch[32] Batch[14750] - loss: 1.952307  ACC: 50.9033%(2085/4096)  top1_acc: 0.5090  top5_acc: 0.7998
-Epoch[32] Batch[14800] - loss: 1.952726  ACC: 50.4150%(2065/4096)  top1_acc: 0.5042  top5_acc: 0.8093
-Epoch[32] Batch[14850] - loss: 1.984502  ACC: 50.1221%(2053/4096)  top1_acc: 0.5012  top5_acc: 0.8064
-Epoch[32] Batch[14900] - loss: 1.992996  ACC: 50.0977%(2052/4096)  top1_acc: 0.5010  top5_acc: 0.7966
-Epoch[32] Batch[14950] - loss: 2.010113  ACC: 49.5850%(2031/4096)  top1_acc: 0.4958  top5_acc: 0.7996
-Epoch[32] Batch[15000] - loss: 2.013949  ACC: 49.6826%(2035/4096)  top1_acc: 0.4968  top5_acc: 0.7981
-Epoch[33] Batch[15050] - loss: 1.928389  ACC: 51.5137%(2110/4096)  top1_acc: 0.5151  top5_acc: 0.8091
-Epoch[33] Batch[15100] - loss: 1.921268  ACC: 50.9033%(2085/4096)  top1_acc: 0.5090  top5_acc: 0.8079
-Epoch[33] Batch[15150] - loss: 1.950649  ACC: 50.6104%(2073/4096)  top1_acc: 0.5061  top5_acc: 0.8083
-Epoch[33] Batch[15200] - loss: 2.008514  ACC: 49.9756%(2047/4096)  top1_acc: 0.4998  top5_acc: 0.7893
-Epoch[33] Batch[15250] - loss: 1.910829  ACC: 52.7344%(2160/4096)  top1_acc: 0.5273  top5_acc: 0.8140
-Epoch[33] Batch[15300] - loss: 1.952060  ACC: 51.1475%(2095/4096)  top1_acc: 0.5115  top5_acc: 0.8037
-Epoch[33] Batch[15350] - loss: 1.952847  ACC: 51.4404%(2107/4096)  top1_acc: 0.5144  top5_acc: 0.8079
-Epoch[33] Batch[15400] - loss: 1.948413  ACC: 50.6836%(2076/4096)  top1_acc: 0.5068  top5_acc: 0.8062
-Epoch[33] Batch[15450] - loss: 1.956959  ACC: 51.0986%(2093/4096)  top1_acc: 0.5110  top5_acc: 0.8037
-Epoch[33] Batch[15500] - loss: 1.960416  ACC: 51.0498%(2091/4096)  top1_acc: 0.5105  top5_acc: 0.8035
-Epoch[34] Batch[15550] - loss: 1.880588  ACC: 53.4180%(2188/4096)  top1_acc: 0.5342  top5_acc: 0.8079
-Epoch[34] Batch[15600] - loss: 1.891987  ACC: 51.4893%(2109/4096)  top1_acc: 0.5149  top5_acc: 0.8125
-Epoch[34] Batch[15650] - loss: 1.869035  ACC: 52.2949%(2142/4096)  top1_acc: 0.5229  top5_acc: 0.8105
-Epoch[34] Batch[15700] - loss: 1.864260  ACC: 52.6855%(2158/4096)  top1_acc: 0.5269  top5_acc: 0.8127
-Epoch[34] Batch[15750] - loss: 1.918370  ACC: 50.5859%(2072/4096)  top1_acc: 0.5059  top5_acc: 0.8103
-Epoch[34] Batch[15800] - loss: 1.887062  ACC: 52.1484%(2136/4096)  top1_acc: 0.5215  top5_acc: 0.8208
-Epoch[34] Batch[15850] - loss: 1.941726  ACC: 51.3672%(2104/4096)  top1_acc: 0.5137  top5_acc: 0.8057
-Epoch[34] Batch[15900] - loss: 1.920090  ACC: 51.7822%(2121/4096)  top1_acc: 0.5178  top5_acc: 0.8057
-Epoch[34] Batch[15950] - loss: 1.914516  ACC: 51.7578%(2120/4096)  top1_acc: 0.5176  top5_acc: 0.8032
-Epoch[35] Batch[16000] - loss: 1.955802  ACC: 50.8789%(2084/4096)  top1_acc: 0.5088  top5_acc: 0.8057
-Epoch[35] Batch[16050] - loss: 1.940393  ACC: 51.9287%(2127/4096)  top1_acc: 0.5193  top5_acc: 0.8022
-Epoch[35] Batch[16100] - loss: 1.988910  ACC: 50.3662%(2063/4096)  top1_acc: 0.5037  top5_acc: 0.7983
-Epoch[35] Batch[16150] - loss: 1.922055  ACC: 51.7822%(2121/4096)  top1_acc: 0.5178  top5_acc: 0.8047
-Epoch[35] Batch[16200] - loss: 1.871862  ACC: 53.3447%(2185/4096)  top1_acc: 0.5334  top5_acc: 0.8215
-Epoch[35] Batch[16250] - loss: 1.924184  ACC: 51.6357%(2115/4096)  top1_acc: 0.5164  top5_acc: 0.8066
-Epoch[35] Batch[16300] - loss: 1.945381  ACC: 51.0254%(2090/4096)  top1_acc: 0.5103  top5_acc: 0.7996
-Epoch[35] Batch[16350] - loss: 1.908424  ACC: 52.9785%(2170/4096)  top1_acc: 0.5298  top5_acc: 0.8157
-Epoch[35] Batch[16400] - loss: 1.939892  ACC: 51.8555%(2124/4096)  top1_acc: 0.5186  top5_acc: 0.7998
-Epoch[35] Batch[16450] - loss: 1.855378  ACC: 53.2194%(934/1755)  top1_acc: 0.5322  top5_acc: 0.8274
-############################################################Periodic Test############################################################
-model_eval data_iter 34
-Test[0] -  batch_top1_acc: 0.3889%  batch_top5_acc: 0.6917%
-Test[1] -  batch_top1_acc: 0.3889%  batch_top5_acc: 0.6904%
-Test[2] -  batch_top1_acc: 0.3850%  batch_top5_acc: 0.6875%
-Test[3] -  batch_top1_acc: 0.3892%  batch_top5_acc: 0.6912%
-Test[4] -  batch_top1_acc: 0.3789%  batch_top5_acc: 0.6826%
-Test[5] -  batch_top1_acc: 0.3926%  batch_top5_acc: 0.6785%
-Test[6] -  batch_top1_acc: 0.3865%  batch_top5_acc: 0.6851%
-Test[7] -  batch_top1_acc: 0.3909%  batch_top5_acc: 0.6934%
-Test[8] -  batch_top1_acc: 0.3787%  batch_top5_acc: 0.6829%
-Test[9] -  batch_top1_acc: 0.3884%  batch_top5_acc: 0.6885%
-Test[10] -  batch_top1_acc: 0.3850%  batch_top5_acc: 0.6838%
-Test[11] -  batch_top1_acc: 0.3970%  batch_top5_acc: 0.6975%
-Test[12] -  batch_top1_acc: 0.3943%  batch_top5_acc: 0.6902%
-Test[13] -  batch_top1_acc: 0.3892%  batch_top5_acc: 0.6919%
-Test[14] -  batch_top1_acc: 0.3979%  batch_top5_acc: 0.6873%
-Test[15] -  batch_top1_acc: 0.3816%  batch_top5_acc: 0.6753%
-Test[16] -  batch_top1_acc: 0.3899%  batch_top5_acc: 0.6902%
-Test[17] -  batch_top1_acc: 0.3879%  batch_top5_acc: 0.6865%
-Test[18] -  batch_top1_acc: 0.3850%  batch_top5_acc: 0.6763%
-Test[19] -  batch_top1_acc: 0.3774%  batch_top5_acc: 0.6863%
-Test[20] -  batch_top1_acc: 0.3826%  batch_top5_acc: 0.6831%
-Test[21] -  batch_top1_acc: 0.3728%  batch_top5_acc: 0.6956%
-Test[22] -  batch_top1_acc: 0.3926%  batch_top5_acc: 0.6978%
-Test[23] -  batch_top1_acc: 0.3950%  batch_top5_acc: 0.6895%
-Test[24] -  batch_top1_acc: 0.3896%  batch_top5_acc: 0.6853%
-Test[25] -  batch_top1_acc: 0.3879%  batch_top5_acc: 0.6887%
-Test[26] -  batch_top1_acc: 0.3787%  batch_top5_acc: 0.6829%
-Test[27] -  batch_top1_acc: 0.3896%  batch_top5_acc: 0.6848%
-Test[28] -  batch_top1_acc: 0.3743%  batch_top5_acc: 0.6829%
-Test[29] -  batch_top1_acc: 0.3965%  batch_top5_acc: 0.6970%
-Test[30] -  batch_top1_acc: 0.3889%  batch_top5_acc: 0.6851%
-Test[31] -  batch_top1_acc: 0.3911%  batch_top5_acc: 0.6851%
-Test[32] -  batch_top1_acc: 0.3855%  batch_top5_acc: 0.6792%
-Test[33] -  batch_top1_acc: 0.3876%  batch_top5_acc: 0.6820%
-Evaluation - loss: 0.000000  ACC: 38.7229%(53376/137841)  top1_acc: 0.3872%  top5_acc: 0.6870%
-test current performance
-[top1 ACC	top5 ACC]
-[0.38722876357542385, 0.6869799261467923]
-############################################################Over############################################################
-Epoch[36] Batch[16500] - loss: 1.872973  ACC: 52.2461%(2140/4096)  top1_acc: 0.5225  top5_acc: 0.8174
-Epoch[36] Batch[16550] - loss: 1.896064  ACC: 51.8311%(2123/4096)  top1_acc: 0.5183  top5_acc: 0.8088
-Epoch[36] Batch[16600] - loss: 1.846228  ACC: 51.6113%(2114/4096)  top1_acc: 0.5161  top5_acc: 0.8171
-Epoch[36] Batch[16650] - loss: 1.869443  ACC: 52.8320%(2164/4096)  top1_acc: 0.5283  top5_acc: 0.8164
-Epoch[36] Batch[16700] - loss: 1.884532  ACC: 51.8555%(2124/4096)  top1_acc: 0.5186  top5_acc: 0.8040
-Epoch[36] Batch[16750] - loss: 1.880239  ACC: 52.4414%(2148/4096)  top1_acc: 0.5244  top5_acc: 0.8174
-Epoch[36] Batch[16800] - loss: 1.926329  ACC: 51.6846%(2117/4096)  top1_acc: 0.5168  top5_acc: 0.8030
-Epoch[36] Batch[16850] - loss: 1.909513  ACC: 50.7812%(2080/4096)  top1_acc: 0.5078  top5_acc: 0.8074
-Epoch[36] Batch[16900] - loss: 1.926436  ACC: 52.3438%(2144/4096)  top1_acc: 0.5234  top5_acc: 0.8135
-Epoch[37] Batch[16950] - loss: 1.901357  ACC: 51.5869%(2113/4096)  top1_acc: 0.5159  top5_acc: 0.8176
-Epoch[37] Batch[17000] - loss: 1.887093  ACC: 53.0029%(2171/4096)  top1_acc: 0.5300  top5_acc: 0.8169
-Epoch[37] Batch[17050] - loss: 1.856842  ACC: 52.7100%(2159/4096)  top1_acc: 0.5271  top5_acc: 0.8208
-Epoch[37] Batch[17100] - loss: 1.885995  ACC: 52.7588%(2161/4096)  top1_acc: 0.5276  top5_acc: 0.8135
-Epoch[37] Batch[17150] - loss: 1.894674  ACC: 51.9043%(2126/4096)  top1_acc: 0.5190  top5_acc: 0.8140
-Epoch[37] Batch[17200] - loss: 1.977730  ACC: 50.2686%(2059/4096)  top1_acc: 0.5027  top5_acc: 0.7981
-Epoch[37] Batch[17250] - loss: 1.926243  ACC: 50.8301%(2082/4096)  top1_acc: 0.5083  top5_acc: 0.8066
-Epoch[37] Batch[17300] - loss: 1.996151  ACC: 51.1475%(2095/4096)  top1_acc: 0.5115  top5_acc: 0.7964
-Epoch[37] Batch[17350] - loss: 1.856331  ACC: 53.2471%(2181/4096)  top1_acc: 0.5325  top5_acc: 0.8127
-Epoch[38] Batch[17400] - loss: 1.827923  ACC: 53.9062%(2208/4096)  top1_acc: 0.5391  top5_acc: 0.8242
-Epoch[38] Batch[17450] - loss: 1.839699  ACC: 53.0273%(2172/4096)  top1_acc: 0.5303  top5_acc: 0.8245
-Epoch[38] Batch[17500] - loss: 1.929610  ACC: 50.9033%(2085/4096)  top1_acc: 0.5090  top5_acc: 0.8066
-Epoch[38] Batch[17550] - loss: 1.864884  ACC: 53.0029%(2171/4096)  top1_acc: 0.5300  top5_acc: 0.8184
-Epoch[38] Batch[17600] - loss: 1.856386  ACC: 52.3682%(2145/4096)  top1_acc: 0.5237  top5_acc: 0.8220
-Epoch[38] Batch[17650] - loss: 1.862591  ACC: 53.7842%(2203/4096)  top1_acc: 0.5378  top5_acc: 0.8181
-Epoch[38] Batch[17700] - loss: 1.919248  ACC: 51.4160%(2106/4096)  top1_acc: 0.5142  top5_acc: 0.8147
-Epoch[38] Batch[17750] - loss: 1.863379  ACC: 52.5635%(2153/4096)  top1_acc: 0.5256  top5_acc: 0.8184
-Epoch[38] Batch[17800] - loss: 1.902615  ACC: 52.2461%(2140/4096)  top1_acc: 0.5225  top5_acc: 0.8105
-Epoch[38] Batch[17850] - loss: 1.881559  ACC: 52.6611%(2157/4096)  top1_acc: 0.5266  top5_acc: 0.8145
-Epoch[39] Batch[17900] - loss: 1.845740  ACC: 52.5635%(2153/4096)  top1_acc: 0.5256  top5_acc: 0.8208
-Epoch[39] Batch[17950] - loss: 1.843497  ACC: 54.1748%(2219/4096)  top1_acc: 0.5417  top5_acc: 0.8105
-Epoch[39] Batch[18000] - loss: 1.836537  ACC: 53.1494%(2177/4096)  top1_acc: 0.5315  top5_acc: 0.8262
-Epoch[39] Batch[18050] - loss: 1.880956  ACC: 52.9297%(2168/4096)  top1_acc: 0.5293  top5_acc: 0.8152
-Epoch[39] Batch[18100] - loss: 1.871013  ACC: 52.4658%(2149/4096)  top1_acc: 0.5247  top5_acc: 0.8174
-Epoch[39] Batch[18150] - loss: 1.875577  ACC: 52.8320%(2164/4096)  top1_acc: 0.5283  top5_acc: 0.8118
-Epoch[39] Batch[18200] - loss: 1.905319  ACC: 52.6123%(2155/4096)  top1_acc: 0.5261  top5_acc: 0.8098
-Epoch[39] Batch[18250] - loss: 1.902338  ACC: 51.9043%(2126/4096)  top1_acc: 0.5190  top5_acc: 0.8113
-Epoch[39] Batch[18300] - loss: 1.857131  ACC: 53.8086%(2204/4096)  top1_acc: 0.5381  top5_acc: 0.8110
-Epoch[40] Batch[18350] - loss: 1.796661  ACC: 54.1748%(2219/4096)  top1_acc: 0.5417  top5_acc: 0.8257
-Epoch[40] Batch[18400] - loss: 1.852328  ACC: 53.1250%(2176/4096)  top1_acc: 0.5312  top5_acc: 0.8203
-Epoch[40] Batch[18450] - loss: 1.846473  ACC: 52.5146%(2151/4096)  top1_acc: 0.5251  top5_acc: 0.8247
-Epoch[40] Batch[18500] - loss: 1.851364  ACC: 53.3691%(2186/4096)  top1_acc: 0.5337  top5_acc: 0.8174
-Epoch[40] Batch[18550] - loss: 1.829450  ACC: 53.5156%(2192/4096)  top1_acc: 0.5352  top5_acc: 0.8196
-Epoch[40] Batch[18600] - loss: 1.882171  ACC: 53.1982%(2179/4096)  top1_acc: 0.5320  top5_acc: 0.8191
-Epoch[40] Batch[18650] - loss: 1.907702  ACC: 51.5137%(2110/4096)  top1_acc: 0.5151  top5_acc: 0.8135
-Epoch[40] Batch[18700] - loss: 1.857341  ACC: 52.3193%(2143/4096)  top1_acc: 0.5232  top5_acc: 0.8203
-Epoch[40] Batch[18750] - loss: 1.901455  ACC: 51.7578%(2120/4096)  top1_acc: 0.5176  top5_acc: 0.8125
-Epoch[40] Batch[18800] - loss: 1.871595  ACC: 53.5043%(939/1755)  top1_acc: 0.5350  top5_acc: 0.8142
-############################################################Periodic Test############################################################
-model_eval data_iter 34
-Test[0] -  batch_top1_acc: 0.3872%  batch_top5_acc: 0.6829%
-Test[1] -  batch_top1_acc: 0.3804%  batch_top5_acc: 0.6724%
-Test[2] -  batch_top1_acc: 0.3984%  batch_top5_acc: 0.6995%
-Test[3] -  batch_top1_acc: 0.3833%  batch_top5_acc: 0.6921%
-Test[4] -  batch_top1_acc: 0.3784%  batch_top5_acc: 0.6780%
-Test[5] -  batch_top1_acc: 0.3779%  batch_top5_acc: 0.6860%
-Test[6] -  batch_top1_acc: 0.3960%  batch_top5_acc: 0.6870%
-Test[7] -  batch_top1_acc: 0.3765%  batch_top5_acc: 0.6653%
-Test[8] -  batch_top1_acc: 0.3867%  batch_top5_acc: 0.6785%
-Test[9] -  batch_top1_acc: 0.3896%  batch_top5_acc: 0.6831%
-Test[10] -  batch_top1_acc: 0.3757%  batch_top5_acc: 0.6819%
-Test[11] -  batch_top1_acc: 0.3989%  batch_top5_acc: 0.6860%
-Test[12] -  batch_top1_acc: 0.3770%  batch_top5_acc: 0.6826%
-Test[13] -  batch_top1_acc: 0.3772%  batch_top5_acc: 0.6846%
-Test[14] -  batch_top1_acc: 0.3962%  batch_top5_acc: 0.6934%
-Test[15] -  batch_top1_acc: 0.3965%  batch_top5_acc: 0.6975%
-Test[16] -  batch_top1_acc: 0.3789%  batch_top5_acc: 0.6763%
-Test[17] -  batch_top1_acc: 0.3867%  batch_top5_acc: 0.6897%
-Test[18] -  batch_top1_acc: 0.3792%  batch_top5_acc: 0.6775%
-Test[19] -  batch_top1_acc: 0.3906%  batch_top5_acc: 0.6848%
-Test[20] -  batch_top1_acc: 0.3826%  batch_top5_acc: 0.6855%
-Test[21] -  batch_top1_acc: 0.3870%  batch_top5_acc: 0.6873%
-Test[22] -  batch_top1_acc: 0.3884%  batch_top5_acc: 0.6890%
-Test[23] -  batch_top1_acc: 0.3823%  batch_top5_acc: 0.6902%
-Test[24] -  batch_top1_acc: 0.4038%  batch_top5_acc: 0.7036%
-Test[25] -  batch_top1_acc: 0.3748%  batch_top5_acc: 0.6733%
-Test[26] -  batch_top1_acc: 0.3955%  batch_top5_acc: 0.6833%
-Test[27] -  batch_top1_acc: 0.3792%  batch_top5_acc: 0.6816%
-Test[28] -  batch_top1_acc: 0.3835%  batch_top5_acc: 0.6787%
-Test[29] -  batch_top1_acc: 0.3799%  batch_top5_acc: 0.6841%
-Test[30] -  batch_top1_acc: 0.3779%  batch_top5_acc: 0.6763%
-Test[31] -  batch_top1_acc: 0.3770%  batch_top5_acc: 0.6787%
-Test[32] -  batch_top1_acc: 0.3748%  batch_top5_acc: 0.6824%
-Test[33] -  batch_top1_acc: 0.3880%  batch_top5_acc: 0.6869%
-Evaluation - loss: 0.000000  ACC: 38.4849%(53048/137841)  top1_acc: 0.3848%  top5_acc: 0.6841%
-test current performance
-[top1 ACC	top5 ACC]
-[0.3848492103220377, 0.6840852866708744]
-############################################################Over############################################################
-Epoch[41] Batch[18850] - loss: 1.810748  ACC: 54.1748%(2219/4096)  top1_acc: 0.5417  top5_acc: 0.8269
-Epoch[41] Batch[18900] - loss: 1.852604  ACC: 52.5635%(2153/4096)  top1_acc: 0.5256  top5_acc: 0.8125
-Epoch[41] Batch[18950] - loss: 1.830757  ACC: 54.3213%(2225/4096)  top1_acc: 0.5432  top5_acc: 0.8213
-Epoch[41] Batch[19000] - loss: 1.801868  ACC: 53.2959%(2183/4096)  top1_acc: 0.5330  top5_acc: 0.8340
-Epoch[41] Batch[19050] - loss: 1.858194  ACC: 52.8809%(2166/4096)  top1_acc: 0.5288  top5_acc: 0.8179
-Epoch[41] Batch[19100] - loss: 1.898049  ACC: 51.9043%(2126/4096)  top1_acc: 0.5190  top5_acc: 0.8074
-Epoch[41] Batch[19150] - loss: 1.861369  ACC: 52.9785%(2170/4096)  top1_acc: 0.5298  top5_acc: 0.8193
-Epoch[41] Batch[19200] - loss: 1.881135  ACC: 51.7334%(2119/4096)  top1_acc: 0.5173  top5_acc: 0.8157
-Epoch[41] Batch[19250] - loss: 1.883732  ACC: 51.7090%(2118/4096)  top1_acc: 0.5171  top5_acc: 0.8167
-Epoch[42] Batch[19300] - loss: 1.803015  ACC: 53.5645%(2194/4096)  top1_acc: 0.5356  top5_acc: 0.8252
-Epoch[42] Batch[19350] - loss: 1.788712  ACC: 53.3447%(2185/4096)  top1_acc: 0.5334  top5_acc: 0.8291
-Epoch[42] Batch[19400] - loss: 1.763935  ACC: 55.2246%(2262/4096)  top1_acc: 0.5522  top5_acc: 0.8318
-Epoch[42] Batch[19450] - loss: 1.840772  ACC: 53.2227%(2180/4096)  top1_acc: 0.5322  top5_acc: 0.8191
-Epoch[42] Batch[19500] - loss: 1.845205  ACC: 53.4180%(2188/4096)  top1_acc: 0.5342  top5_acc: 0.8159
-Epoch[42] Batch[19550] - loss: 1.877077  ACC: 52.4414%(2148/4096)  top1_acc: 0.5244  top5_acc: 0.8154
-Epoch[42] Batch[19600] - loss: 1.887164  ACC: 52.8320%(2164/4096)  top1_acc: 0.5283  top5_acc: 0.8120
-Epoch[42] Batch[19650] - loss: 1.865216  ACC: 52.5635%(2153/4096)  top1_acc: 0.5256  top5_acc: 0.8186
-Epoch[42] Batch[19700] - loss: 1.880682  ACC: 52.1973%(2138/4096)  top1_acc: 0.5220  top5_acc: 0.8162
-Epoch[43] Batch[19750] - loss: 1.733815  ACC: 55.2734%(2264/4096)  top1_acc: 0.5527  top5_acc: 0.8364
-Epoch[43] Batch[19800] - loss: 1.798555  ACC: 53.9307%(2209/4096)  top1_acc: 0.5393  top5_acc: 0.8274
-Epoch[43] Batch[19850] - loss: 1.800983  ACC: 54.6387%(2238/4096)  top1_acc: 0.5464  top5_acc: 0.8264
-Epoch[43] Batch[19900] - loss: 1.853799  ACC: 52.0264%(2131/4096)  top1_acc: 0.5203  top5_acc: 0.8193
-Epoch[43] Batch[19950] - loss: 1.779125  ACC: 54.8828%(2248/4096)  top1_acc: 0.5488  top5_acc: 0.8245
-Epoch[43] Batch[20000] - loss: 1.867346  ACC: 52.5146%(2151/4096)  top1_acc: 0.5251  top5_acc: 0.8181
-Epoch[43] Batch[20050] - loss: 1.792572  ACC: 53.5400%(2193/4096)  top1_acc: 0.5354  top5_acc: 0.8301
-Epoch[43] Batch[20100] - loss: 1.792860  ACC: 53.7842%(2203/4096)  top1_acc: 0.5378  top5_acc: 0.8254
-Epoch[43] Batch[20150] - loss: 1.886119  ACC: 53.3203%(2184/4096)  top1_acc: 0.5332  top5_acc: 0.8125
-Epoch[43] Batch[20200] - loss: 1.860960  ACC: 53.7842%(2203/4096)  top1_acc: 0.5378  top5_acc: 0.8142
-Epoch[44] Batch[20250] - loss: 1.777294  ACC: 55.1270%(2258/4096)  top1_acc: 0.5513  top5_acc: 0.8215
-Epoch[44] Batch[20300] - loss: 1.768805  ACC: 54.8584%(2247/4096)  top1_acc: 0.5486  top5_acc: 0.8342
-Epoch[44] Batch[20350] - loss: 1.803346  ACC: 53.1006%(2175/4096)  top1_acc: 0.5310  top5_acc: 0.8274
-Epoch[44] Batch[20400] - loss: 1.783687  ACC: 54.2236%(2221/4096)  top1_acc: 0.5422  top5_acc: 0.8242
-Epoch[44] Batch[20450] - loss: 1.809520  ACC: 53.1006%(2175/4096)  top1_acc: 0.5310  top5_acc: 0.8252
-Epoch[44] Batch[20500] - loss: 1.795289  ACC: 53.3691%(2186/4096)  top1_acc: 0.5337  top5_acc: 0.8293
-Epoch[44] Batch[20550] - loss: 1.823884  ACC: 52.7344%(2160/4096)  top1_acc: 0.5273  top5_acc: 0.8247
-Epoch[44] Batch[20600] - loss: 1.757506  ACC: 53.8086%(2204/4096)  top1_acc: 0.5381  top5_acc: 0.8335
-Epoch[44] Batch[20650] - loss: 1.814505  ACC: 53.3447%(2185/4096)  top1_acc: 0.5334  top5_acc: 0.8293
-Epoch[45] Batch[20700] - loss: 1.761046  ACC: 55.1270%(2258/4096)  top1_acc: 0.5513  top5_acc: 0.8318
-Epoch[45] Batch[20750] - loss: 1.800209  ACC: 53.4912%(2191/4096)  top1_acc: 0.5349  top5_acc: 0.8264
-Epoch[45] Batch[20800] - loss: 1.766177  ACC: 54.0771%(2215/4096)  top1_acc: 0.5408  top5_acc: 0.8354
-Epoch[45] Batch[20850] - loss: 1.807553  ACC: 54.4434%(2230/4096)  top1_acc: 0.5444  top5_acc: 0.8254
-Epoch[45] Batch[20900] - loss: 1.786429  ACC: 54.2969%(2224/4096)  top1_acc: 0.5430  top5_acc: 0.8230
-Epoch[45] Batch[20950] - loss: 1.821806  ACC: 53.7842%(2203/4096)  top1_acc: 0.5378  top5_acc: 0.8264
-Epoch[45] Batch[21000] - loss: 1.823632  ACC: 53.5400%(2193/4096)  top1_acc: 0.5354  top5_acc: 0.8196
-Epoch[45] Batch[21050] - loss: 1.849825  ACC: 53.4424%(2189/4096)  top1_acc: 0.5344  top5_acc: 0.8208
-Epoch[45] Batch[21100] - loss: 1.840710  ACC: 53.1494%(2177/4096)  top1_acc: 0.5315  top5_acc: 0.8162
-Epoch[45] Batch[21150] - loss: 1.878514  ACC: 52.7635%(926/1755)  top1_acc: 0.5276  top5_acc: 0.7972
-############################################################Periodic Test############################################################
-model_eval data_iter 34
-Test[0] -  batch_top1_acc: 0.3901%  batch_top5_acc: 0.6890%
-Test[1] -  batch_top1_acc: 0.3828%  batch_top5_acc: 0.6746%
-Test[2] -  batch_top1_acc: 0.3867%  batch_top5_acc: 0.6843%
-Test[3] -  batch_top1_acc: 0.3801%  batch_top5_acc: 0.6851%
-Test[4] -  batch_top1_acc: 0.4033%  batch_top5_acc: 0.6953%
-Test[5] -  batch_top1_acc: 0.3789%  batch_top5_acc: 0.6792%
-Test[6] -  batch_top1_acc: 0.3833%  batch_top5_acc: 0.6797%
-Test[7] -  batch_top1_acc: 0.3833%  batch_top5_acc: 0.6843%
-Test[8] -  batch_top1_acc: 0.3696%  batch_top5_acc: 0.6875%
-Test[9] -  batch_top1_acc: 0.3762%  batch_top5_acc: 0.6755%
-Test[10] -  batch_top1_acc: 0.3713%  batch_top5_acc: 0.6819%
-Test[11] -  batch_top1_acc: 0.3835%  batch_top5_acc: 0.6726%
-Test[12] -  batch_top1_acc: 0.3684%  batch_top5_acc: 0.6704%
-Test[13] -  batch_top1_acc: 0.3821%  batch_top5_acc: 0.6680%
-Test[14] -  batch_top1_acc: 0.3625%  batch_top5_acc: 0.6687%
-Test[15] -  batch_top1_acc: 0.3804%  batch_top5_acc: 0.6816%
-Test[16] -  batch_top1_acc: 0.3933%  batch_top5_acc: 0.6812%
-Test[17] -  batch_top1_acc: 0.3833%  batch_top5_acc: 0.6897%
-Test[18] -  batch_top1_acc: 0.3740%  batch_top5_acc: 0.6772%
-Test[19] -  batch_top1_acc: 0.3818%  batch_top5_acc: 0.6794%
-Test[20] -  batch_top1_acc: 0.3647%  batch_top5_acc: 0.6694%
-Test[21] -  batch_top1_acc: 0.3853%  batch_top5_acc: 0.6687%
-Test[22] -  batch_top1_acc: 0.3799%  batch_top5_acc: 0.6768%
-Test[23] -  batch_top1_acc: 0.3757%  batch_top5_acc: 0.6719%
-Test[24] -  batch_top1_acc: 0.3828%  batch_top5_acc: 0.6782%
-Test[25] -  batch_top1_acc: 0.3711%  batch_top5_acc: 0.6716%
-Test[26] -  batch_top1_acc: 0.3794%  batch_top5_acc: 0.6765%
-Test[27] -  batch_top1_acc: 0.3838%  batch_top5_acc: 0.6794%
-Test[28] -  batch_top1_acc: 0.3845%  batch_top5_acc: 0.6836%
-Test[29] -  batch_top1_acc: 0.3767%  batch_top5_acc: 0.6704%
-Test[30] -  batch_top1_acc: 0.3860%  batch_top5_acc: 0.6775%
-Test[31] -  batch_top1_acc: 0.3879%  batch_top5_acc: 0.6768%
-Test[32] -  batch_top1_acc: 0.3918%  batch_top5_acc: 0.6841%
-Test[33] -  batch_top1_acc: 0.3898%  batch_top5_acc: 0.6813%
-Evaluation - loss: 0.000000  ACC: 38.0932%(52508/137841)  top1_acc: 0.3809%  top5_acc: 0.6785%
-test current performance
-[top1 ACC	top5 ACC]
-[0.3809316531365849, 0.6785426687270115]
-############################################################Over############################################################
-Epoch[46] Batch[21200] - loss: 1.773996  ACC: 53.4424%(2189/4096)  top1_acc: 0.5344  top5_acc: 0.8252
-Epoch[46] Batch[21250] - loss: 1.758643  ACC: 54.8584%(2247/4096)  top1_acc: 0.5486  top5_acc: 0.8293
-Epoch[46] Batch[21300] - loss: 1.773826  ACC: 54.0039%(2212/4096)  top1_acc: 0.5400  top5_acc: 0.8330
-Epoch[46] Batch[21350] - loss: 1.793095  ACC: 53.8574%(2206/4096)  top1_acc: 0.5386  top5_acc: 0.8311
-Epoch[46] Batch[21400] - loss: 1.804918  ACC: 53.2227%(2180/4096)  top1_acc: 0.5322  top5_acc: 0.8232
-Epoch[46] Batch[21450] - loss: 1.808038  ACC: 53.6865%(2199/4096)  top1_acc: 0.5369  top5_acc: 0.8232
-Epoch[46] Batch[21500] - loss: 1.811800  ACC: 53.3936%(2187/4096)  top1_acc: 0.5339  top5_acc: 0.8147
-Epoch[46] Batch[21550] - loss: 1.814290  ACC: 53.2715%(2182/4096)  top1_acc: 0.5327  top5_acc: 0.8245
-Epoch[46] Batch[21600] - loss: 1.807808  ACC: 53.1494%(2177/4096)  top1_acc: 0.5315  top5_acc: 0.8252
-Epoch[47] Batch[21650] - loss: 1.714824  ACC: 55.1270%(2258/4096)  top1_acc: 0.5513  top5_acc: 0.8442
-Epoch[47] Batch[21700] - loss: 1.743059  ACC: 55.7373%(2283/4096)  top1_acc: 0.5574  top5_acc: 0.8342
-Epoch[47] Batch[21750] - loss: 1.757664  ACC: 55.1758%(2260/4096)  top1_acc: 0.5518  top5_acc: 0.8320
-Epoch[47] Batch[21800] - loss: 1.826456  ACC: 53.4424%(2189/4096)  top1_acc: 0.5344  top5_acc: 0.8254
-Epoch[47] Batch[21850] - loss: 1.788730  ACC: 54.2725%(2223/4096)  top1_acc: 0.5427  top5_acc: 0.8352
-Epoch[47] Batch[21900] - loss: 1.832209  ACC: 52.9053%(2167/4096)  top1_acc: 0.5291  top5_acc: 0.8247
-Epoch[47] Batch[21950] - loss: 1.800250  ACC: 52.9053%(2167/4096)  top1_acc: 0.5291  top5_acc: 0.8293
-Epoch[47] Batch[22000] - loss: 1.790786  ACC: 53.4180%(2188/4096)  top1_acc: 0.5342  top5_acc: 0.8340
-Epoch[47] Batch[22050] - loss: 1.756091  ACC: 54.8340%(2246/4096)  top1_acc: 0.5483  top5_acc: 0.8372
-Epoch[48] Batch[22100] - loss: 1.745370  ACC: 54.3457%(2226/4096)  top1_acc: 0.5435  top5_acc: 0.8381
-Epoch[48] Batch[22150] - loss: 1.710624  ACC: 55.1514%(2259/4096)  top1_acc: 0.5515  top5_acc: 0.8438
-Epoch[48] Batch[22200] - loss: 1.757166  ACC: 54.5898%(2236/4096)  top1_acc: 0.5459  top5_acc: 0.8359
-Epoch[48] Batch[22250] - loss: 1.768480  ACC: 54.7363%(2242/4096)  top1_acc: 0.5474  top5_acc: 0.8301
-Epoch[48] Batch[22300] - loss: 1.773319  ACC: 55.1270%(2258/4096)  top1_acc: 0.5513  top5_acc: 0.8354
-Epoch[48] Batch[22350] - loss: 1.801531  ACC: 53.0273%(2172/4096)  top1_acc: 0.5303  top5_acc: 0.8279
-Epoch[48] Batch[22400] - loss: 1.826939  ACC: 52.7832%(2162/4096)  top1_acc: 0.5278  top5_acc: 0.8264
-Epoch[48] Batch[22450] - loss: 1.745479  ACC: 55.1025%(2257/4096)  top1_acc: 0.5510  top5_acc: 0.8306
-Epoch[48] Batch[22500] - loss: 1.864233  ACC: 52.7100%(2159/4096)  top1_acc: 0.5271  top5_acc: 0.8135
-Epoch[48] Batch[22550] - loss: 1.777892  ACC: 54.8584%(2247/4096)  top1_acc: 0.5486  top5_acc: 0.8296
-Epoch[49] Batch[22600] - loss: 1.729990  ACC: 55.1270%(2258/4096)  top1_acc: 0.5513  top5_acc: 0.8354
-Epoch[49] Batch[22650] - loss: 1.758026  ACC: 54.5898%(2236/4096)  top1_acc: 0.5459  top5_acc: 0.8367
-Epoch[49] Batch[22700] - loss: 1.727139  ACC: 55.8838%(2289/4096)  top1_acc: 0.5588  top5_acc: 0.8374
-Epoch[49] Batch[22750] - loss: 1.727066  ACC: 55.9570%(2292/4096)  top1_acc: 0.5596  top5_acc: 0.8379
-Epoch[49] Batch[22800] - loss: 1.795782  ACC: 54.6631%(2239/4096)  top1_acc: 0.5466  top5_acc: 0.8284
-Epoch[49] Batch[22850] - loss: 1.817940  ACC: 53.5156%(2192/4096)  top1_acc: 0.5352  top5_acc: 0.8242
-Epoch[49] Batch[22900] - loss: 1.733461  ACC: 54.1504%(2218/4096)  top1_acc: 0.5415  top5_acc: 0.8352
-Epoch[49] Batch[22950] - loss: 1.743053  ACC: 54.6631%(2239/4096)  top1_acc: 0.5466  top5_acc: 0.8357
-Epoch[49] Batch[23000] - loss: 1.751719  ACC: 53.7842%(2203/4096)  top1_acc: 0.5378  top5_acc: 0.8342
-Epoch[50] Batch[23050] - loss: 1.710588  ACC: 54.1016%(2216/4096)  top1_acc: 0.5410  top5_acc: 0.8413
-Epoch[50] Batch[23100] - loss: 1.663331  ACC: 56.4453%(2312/4096)  top1_acc: 0.5645  top5_acc: 0.8521
-Epoch[50] Batch[23150] - loss: 1.775031  ACC: 54.2969%(2224/4096)  top1_acc: 0.5430  top5_acc: 0.8381
-Epoch[50] Batch[23200] - loss: 1.748964  ACC: 54.8828%(2248/4096)  top1_acc: 0.5488  top5_acc: 0.8372
-Epoch[50] Batch[23250] - loss: 1.760307  ACC: 54.6387%(2238/4096)  top1_acc: 0.5464  top5_acc: 0.8352
-Epoch[50] Batch[23300] - loss: 1.765455  ACC: 55.2246%(2262/4096)  top1_acc: 0.5522  top5_acc: 0.8291
-Epoch[50] Batch[23350] - loss: 1.732509  ACC: 55.3223%(2266/4096)  top1_acc: 0.5532  top5_acc: 0.8359
-Epoch[50] Batch[23400] - loss: 1.735442  ACC: 55.2490%(2263/4096)  top1_acc: 0.5525  top5_acc: 0.8450
-Epoch[50] Batch[23450] - loss: 1.793844  ACC: 52.4414%(2148/4096)  top1_acc: 0.5244  top5_acc: 0.8342
-Epoch[50] Batch[23500] - loss: 1.782396  ACC: 53.5613%(940/1755)  top1_acc: 0.5356  top5_acc: 0.8256
-############################################################Periodic Test############################################################
-model_eval data_iter 34
-Test[0] -  batch_top1_acc: 0.3696%  batch_top5_acc: 0.6689%
-Test[1] -  batch_top1_acc: 0.3862%  batch_top5_acc: 0.6855%
-Test[2] -  batch_top1_acc: 0.3782%  batch_top5_acc: 0.6877%
-Test[3] -  batch_top1_acc: 0.3799%  batch_top5_acc: 0.6819%
-Test[4] -  batch_top1_acc: 0.3804%  batch_top5_acc: 0.6785%
-Test[5] -  batch_top1_acc: 0.3799%  batch_top5_acc: 0.6785%
-Test[6] -  batch_top1_acc: 0.3708%  batch_top5_acc: 0.6631%
-Test[7] -  batch_top1_acc: 0.3792%  batch_top5_acc: 0.6897%
-Test[8] -  batch_top1_acc: 0.3821%  batch_top5_acc: 0.6775%
-Test[9] -  batch_top1_acc: 0.3811%  batch_top5_acc: 0.6743%
-Test[10] -  batch_top1_acc: 0.3867%  batch_top5_acc: 0.6846%
-Test[11] -  batch_top1_acc: 0.3784%  batch_top5_acc: 0.6628%
-Test[12] -  batch_top1_acc: 0.3823%  batch_top5_acc: 0.6680%
-Test[13] -  batch_top1_acc: 0.3596%  batch_top5_acc: 0.6714%
-Test[14] -  batch_top1_acc: 0.3713%  batch_top5_acc: 0.6719%
-Test[15] -  batch_top1_acc: 0.3674%  batch_top5_acc: 0.6868%
-Test[16] -  batch_top1_acc: 0.3799%  batch_top5_acc: 0.6819%
-Test[17] -  batch_top1_acc: 0.3821%  batch_top5_acc: 0.6824%
-Test[18] -  batch_top1_acc: 0.3792%  batch_top5_acc: 0.6755%
-Test[19] -  batch_top1_acc: 0.3784%  batch_top5_acc: 0.6807%
-Test[20] -  batch_top1_acc: 0.3816%  batch_top5_acc: 0.6819%
-Test[21] -  batch_top1_acc: 0.3970%  batch_top5_acc: 0.6938%
-Test[22] -  batch_top1_acc: 0.3701%  batch_top5_acc: 0.6765%
-Test[23] -  batch_top1_acc: 0.3833%  batch_top5_acc: 0.6829%
-Test[24] -  batch_top1_acc: 0.3772%  batch_top5_acc: 0.6667%
-Test[25] -  batch_top1_acc: 0.3718%  batch_top5_acc: 0.6780%
-Test[26] -  batch_top1_acc: 0.3933%  batch_top5_acc: 0.6794%
-Test[27] -  batch_top1_acc: 0.3792%  batch_top5_acc: 0.6877%
-Test[28] -  batch_top1_acc: 0.3684%  batch_top5_acc: 0.6724%
-Test[29] -  batch_top1_acc: 0.3801%  batch_top5_acc: 0.6663%
-Test[30] -  batch_top1_acc: 0.3787%  batch_top5_acc: 0.6677%
-Test[31] -  batch_top1_acc: 0.3652%  batch_top5_acc: 0.6804%
-Test[32] -  batch_top1_acc: 0.3728%  batch_top5_acc: 0.6643%
-Test[33] -  batch_top1_acc: 0.3805%  batch_top5_acc: 0.6831%
-Evaluation - loss: 0.000000  ACC: 37.7972%(52100/137841)  top1_acc: 0.3780%  top5_acc: 0.6774%
-test current performance
-[top1 ACC	top5 ACC]
-[0.3779717210409095, 0.6773746563069043]
-############################################################Over############################################################
-Epoch[51] Batch[23550] - loss: 1.690717  ACC: 55.1758%(2260/4096)  top1_acc: 0.5518  top5_acc: 0.8445
-Epoch[51] Batch[23600] - loss: 1.717139  ACC: 54.2725%(2223/4096)  top1_acc: 0.5427  top5_acc: 0.8447
-Epoch[51] Batch[23650] - loss: 1.693948  ACC: 55.3223%(2266/4096)  top1_acc: 0.5532  top5_acc: 0.8438
-Epoch[51] Batch[23700] - loss: 1.730866  ACC: 55.2246%(2262/4096)  top1_acc: 0.5522  top5_acc: 0.8335
-Epoch[51] Batch[23750] - loss: 1.749764  ACC: 54.5410%(2234/4096)  top1_acc: 0.5454  top5_acc: 0.8342
-Epoch[51] Batch[23800] - loss: 1.729697  ACC: 56.2012%(2302/4096)  top1_acc: 0.5620  top5_acc: 0.8413
-Epoch[51] Batch[23850] - loss: 1.776353  ACC: 53.7109%(2200/4096)  top1_acc: 0.5371  top5_acc: 0.8306
-Epoch[51] Batch[23900] - loss: 1.791186  ACC: 54.1992%(2220/4096)  top1_acc: 0.5420  top5_acc: 0.8271
-Epoch[51] Batch[23950] - loss: 1.755949  ACC: 54.2236%(2221/4096)  top1_acc: 0.5422  top5_acc: 0.8359
-Epoch[52] Batch[24000] - loss: 1.600648  ACC: 57.1533%(2341/4096)  top1_acc: 0.5715  top5_acc: 0.8662
-Epoch[52] Batch[24050] - loss: 1.709226  ACC: 55.4443%(2271/4096)  top1_acc: 0.5544  top5_acc: 0.8384
-Epoch[52] Batch[24100] - loss: 1.668401  ACC: 56.2012%(2302/4096)  top1_acc: 0.5620  top5_acc: 0.8513
-Epoch[52] Batch[24150] - loss: 1.677387  ACC: 56.4209%(2311/4096)  top1_acc: 0.5642  top5_acc: 0.8354
-Epoch[52] Batch[24200] - loss: 1.733031  ACC: 54.6875%(2240/4096)  top1_acc: 0.5469  top5_acc: 0.8416
-Epoch[52] Batch[24250] - loss: 1.739951  ACC: 54.8340%(2246/4096)  top1_acc: 0.5483  top5_acc: 0.8367
-Epoch[52] Batch[24300] - loss: 1.761222  ACC: 54.7607%(2243/4096)  top1_acc: 0.5476  top5_acc: 0.8333
-Epoch[52] Batch[24350] - loss: 1.756034  ACC: 54.7363%(2242/4096)  top1_acc: 0.5474  top5_acc: 0.8369
-Epoch[52] Batch[24400] - loss: 1.779434  ACC: 54.0283%(2213/4096)  top1_acc: 0.5403  top5_acc: 0.8352
-Epoch[53] Batch[24450] - loss: 1.641439  ACC: 56.6406%(2320/4096)  top1_acc: 0.5664  top5_acc: 0.8484
-Epoch[53] Batch[24500] - loss: 1.639307  ACC: 57.0312%(2336/4096)  top1_acc: 0.5703  top5_acc: 0.8564
-Epoch[53] Batch[24550] - loss: 1.685707  ACC: 56.1768%(2301/4096)  top1_acc: 0.5618  top5_acc: 0.8489
-Epoch[53] Batch[24600] - loss: 1.675737  ACC: 56.2500%(2304/4096)  top1_acc: 0.5625  top5_acc: 0.8511
-Epoch[53] Batch[24650] - loss: 1.719045  ACC: 54.4189%(2229/4096)  top1_acc: 0.5442  top5_acc: 0.8394
-Epoch[53] Batch[24700] - loss: 1.727111  ACC: 55.2246%(2262/4096)  top1_acc: 0.5522  top5_acc: 0.8367
-Epoch[53] Batch[24750] - loss: 1.720348  ACC: 55.3955%(2269/4096)  top1_acc: 0.5540  top5_acc: 0.8425
-Epoch[53] Batch[24800] - loss: 1.710125  ACC: 54.7852%(2244/4096)  top1_acc: 0.5479  top5_acc: 0.8416
-Epoch[53] Batch[24850] - loss: 1.765218  ACC: 54.9805%(2252/4096)  top1_acc: 0.5498  top5_acc: 0.8279
-Epoch[53] Batch[24900] - loss: 1.735077  ACC: 54.6875%(2240/4096)  top1_acc: 0.5469  top5_acc: 0.8416
-Epoch[54] Batch[24950] - loss: 1.655077  ACC: 56.5918%(2318/4096)  top1_acc: 0.5659  top5_acc: 0.8542
-Epoch[54] Batch[25000] - loss: 1.671360  ACC: 55.7861%(2285/4096)  top1_acc: 0.5579  top5_acc: 0.8469
-Epoch[54] Batch[25050] - loss: 1.719633  ACC: 55.5420%(2275/4096)  top1_acc: 0.5554  top5_acc: 0.8330
-Epoch[54] Batch[25100] - loss: 1.675173  ACC: 56.0547%(2296/4096)  top1_acc: 0.5605  top5_acc: 0.8435
-Epoch[54] Batch[25150] - loss: 1.692196  ACC: 55.9082%(2290/4096)  top1_acc: 0.5591  top5_acc: 0.8416
-Epoch[54] Batch[25200] - loss: 1.694376  ACC: 55.5176%(2274/4096)  top1_acc: 0.5552  top5_acc: 0.8430
-Epoch[54] Batch[25250] - loss: 1.722152  ACC: 55.4199%(2270/4096)  top1_acc: 0.5542  top5_acc: 0.8391
-Epoch[54] Batch[25300] - loss: 1.742196  ACC: 54.1504%(2218/4096)  top1_acc: 0.5415  top5_acc: 0.8452
-Epoch[54] Batch[25350] - loss: 1.762007  ACC: 54.5898%(2236/4096)  top1_acc: 0.5459  top5_acc: 0.8313
-Epoch[55] Batch[25400] - loss: 1.646110  ACC: 56.0303%(2295/4096)  top1_acc: 0.5603  top5_acc: 0.8557
-Epoch[55] Batch[25450] - loss: 1.667823  ACC: 55.7861%(2285/4096)  top1_acc: 0.5579  top5_acc: 0.8521
-Epoch[55] Batch[25500] - loss: 1.685700  ACC: 55.7373%(2283/4096)  top1_acc: 0.5574  top5_acc: 0.8447
-Epoch[55] Batch[25550] - loss: 1.694647  ACC: 55.0781%(2256/4096)  top1_acc: 0.5508  top5_acc: 0.8464
-Epoch[55] Batch[25600] - loss: 1.696401  ACC: 54.8828%(2248/4096)  top1_acc: 0.5488  top5_acc: 0.8416
-Epoch[55] Batch[25650] - loss: 1.732127  ACC: 54.4189%(2229/4096)  top1_acc: 0.5442  top5_acc: 0.8318
-Epoch[55] Batch[25700] - loss: 1.699589  ACC: 56.1035%(2298/4096)  top1_acc: 0.5610  top5_acc: 0.8450
-Epoch[55] Batch[25750] - loss: 1.722588  ACC: 54.6631%(2239/4096)  top1_acc: 0.5466  top5_acc: 0.8411
-Epoch[55] Batch[25800] - loss: 1.704276  ACC: 55.3711%(2268/4096)  top1_acc: 0.5537  top5_acc: 0.8418
-Epoch[55] Batch[25850] - loss: 1.698970  ACC: 56.2393%(987/1755)  top1_acc: 0.5624  top5_acc: 0.8410
-############################################################Periodic Test############################################################
-model_eval data_iter 34
-Test[0] -  batch_top1_acc: 0.3538%  batch_top5_acc: 0.6560%
-Test[1] -  batch_top1_acc: 0.3882%  batch_top5_acc: 0.6770%
-Test[2] -  batch_top1_acc: 0.3796%  batch_top5_acc: 0.6672%
-Test[3] -  batch_top1_acc: 0.3689%  batch_top5_acc: 0.6636%
-Test[4] -  batch_top1_acc: 0.3748%  batch_top5_acc: 0.6731%
-Test[5] -  batch_top1_acc: 0.3801%  batch_top5_acc: 0.6714%
-Test[6] -  batch_top1_acc: 0.3604%  batch_top5_acc: 0.6472%
-Test[7] -  batch_top1_acc: 0.3787%  batch_top5_acc: 0.6819%
-Test[8] -  batch_top1_acc: 0.3748%  batch_top5_acc: 0.6760%
-Test[9] -  batch_top1_acc: 0.3835%  batch_top5_acc: 0.6729%
-Test[10] -  batch_top1_acc: 0.3882%  batch_top5_acc: 0.6731%
-Test[11] -  batch_top1_acc: 0.3696%  batch_top5_acc: 0.6611%
-Test[12] -  batch_top1_acc: 0.3801%  batch_top5_acc: 0.6714%
-Test[13] -  batch_top1_acc: 0.3689%  batch_top5_acc: 0.6707%
-Test[14] -  batch_top1_acc: 0.3601%  batch_top5_acc: 0.6719%
-Test[15] -  batch_top1_acc: 0.3799%  batch_top5_acc: 0.6768%
-Test[16] -  batch_top1_acc: 0.3704%  batch_top5_acc: 0.6641%
-Test[17] -  batch_top1_acc: 0.3701%  batch_top5_acc: 0.6738%
-Test[18] -  batch_top1_acc: 0.3733%  batch_top5_acc: 0.6602%
-Test[19] -  batch_top1_acc: 0.3733%  batch_top5_acc: 0.6841%
-Test[20] -  batch_top1_acc: 0.3677%  batch_top5_acc: 0.6714%
-Test[21] -  batch_top1_acc: 0.3701%  batch_top5_acc: 0.6675%
-Test[22] -  batch_top1_acc: 0.3645%  batch_top5_acc: 0.6577%
-Test[23] -  batch_top1_acc: 0.3660%  batch_top5_acc: 0.6648%
-Test[24] -  batch_top1_acc: 0.3684%  batch_top5_acc: 0.6624%
-Test[25] -  batch_top1_acc: 0.3828%  batch_top5_acc: 0.6809%
-Test[26] -  batch_top1_acc: 0.3752%  batch_top5_acc: 0.6750%
-Test[27] -  batch_top1_acc: 0.3765%  batch_top5_acc: 0.6797%
-Test[28] -  batch_top1_acc: 0.3704%  batch_top5_acc: 0.6665%
-Test[29] -  batch_top1_acc: 0.3640%  batch_top5_acc: 0.6704%
-Test[30] -  batch_top1_acc: 0.3838%  batch_top5_acc: 0.6753%
-Test[31] -  batch_top1_acc: 0.3740%  batch_top5_acc: 0.6741%
-Test[32] -  batch_top1_acc: 0.3843%  batch_top5_acc: 0.6719%
-Test[33] -  batch_top1_acc: 0.3805%  batch_top5_acc: 0.6786%
-Evaluation - loss: 0.000000  ACC: 37.3597%(51497/137841)  top1_acc: 0.3736%  top5_acc: 0.6702%
-test current performance
-[top1 ACC	top5 ACC]
-[0.3735971155171538, 0.6701924681335741]
-############################################################Over############################################################
-Epoch[56] Batch[25900] - loss: 1.663174  ACC: 56.6895%(2322/4096)  top1_acc: 0.5669  top5_acc: 0.8494
-Epoch[56] Batch[25950] - loss: 1.675157  ACC: 56.0547%(2296/4096)  top1_acc: 0.5605  top5_acc: 0.8481
-Epoch[56] Batch[26000] - loss: 1.607249  ACC: 56.7871%(2326/4096)  top1_acc: 0.5679  top5_acc: 0.8657
-Epoch[56] Batch[26050] - loss: 1.696769  ACC: 56.2256%(2303/4096)  top1_acc: 0.5623  top5_acc: 0.8418
-Epoch[56] Batch[26100] - loss: 1.685865  ACC: 56.0059%(2294/4096)  top1_acc: 0.5601  top5_acc: 0.8472
-Epoch[56] Batch[26150] - loss: 1.702089  ACC: 56.2012%(2302/4096)  top1_acc: 0.5620  top5_acc: 0.8411
-Epoch[56] Batch[26200] - loss: 1.690918  ACC: 55.5908%(2277/4096)  top1_acc: 0.5559  top5_acc: 0.8435
-Epoch[56] Batch[26250] - loss: 1.695126  ACC: 57.2021%(2343/4096)  top1_acc: 0.5720  top5_acc: 0.8413
-Epoch[56] Batch[26300] - loss: 1.690844  ACC: 56.0791%(2297/4096)  top1_acc: 0.5608  top5_acc: 0.8469
-Epoch[57] Batch[26350] - loss: 1.552515  ACC: 58.6426%(2402/4096)  top1_acc: 0.5864  top5_acc: 0.8721
-Epoch[57] Batch[26400] - loss: 1.682426  ACC: 54.8584%(2247/4096)  top1_acc: 0.5486  top5_acc: 0.8442
-Epoch[57] Batch[26450] - loss: 1.660848  ACC: 56.2012%(2302/4096)  top1_acc: 0.5620  top5_acc: 0.8481
-Epoch[57] Batch[26500] - loss: 1.619311  ACC: 58.3008%(2388/4096)  top1_acc: 0.5830  top5_acc: 0.8508
-Epoch[57] Batch[26550] - loss: 1.714058  ACC: 55.5420%(2275/4096)  top1_acc: 0.5554  top5_acc: 0.8464
-Epoch[57] Batch[26600] - loss: 1.719652  ACC: 55.2246%(2262/4096)  top1_acc: 0.5522  top5_acc: 0.8403
-Epoch[57] Batch[26650] - loss: 1.674508  ACC: 56.4209%(2311/4096)  top1_acc: 0.5642  top5_acc: 0.8455
-Epoch[57] Batch[26700] - loss: 1.679714  ACC: 56.3232%(2307/4096)  top1_acc: 0.5632  top5_acc: 0.8481
-Epoch[57] Batch[26750] - loss: 1.706600  ACC: 56.9336%(2332/4096)  top1_acc: 0.5693  top5_acc: 0.8386
-Epoch[58] Batch[26800] - loss: 1.646640  ACC: 56.2988%(2306/4096)  top1_acc: 0.5630  top5_acc: 0.8589
-Epoch[58] Batch[26850] - loss: 1.644224  ACC: 56.2744%(2305/4096)  top1_acc: 0.5627  top5_acc: 0.8523
-Epoch[58] Batch[26900] - loss: 1.577321  ACC: 59.0332%(2418/4096)  top1_acc: 0.5903  top5_acc: 0.8572
-Epoch[58] Batch[26950] - loss: 1.597458  ACC: 57.7637%(2366/4096)  top1_acc: 0.5776  top5_acc: 0.8584
-Epoch[58] Batch[27000] - loss: 1.676178  ACC: 56.1035%(2298/4096)  top1_acc: 0.5610  top5_acc: 0.8489
-Epoch[58] Batch[27050] - loss: 1.603802  ACC: 57.3730%(2350/4096)  top1_acc: 0.5737  top5_acc: 0.8625
-Epoch[58] Batch[27100] - loss: 1.640791  ACC: 57.0557%(2337/4096)  top1_acc: 0.5706  top5_acc: 0.8530
-Epoch[58] Batch[27150] - loss: 1.665669  ACC: 56.9824%(2334/4096)  top1_acc: 0.5698  top5_acc: 0.8481
-Epoch[58] Batch[27200] - loss: 1.699572  ACC: 54.6631%(2239/4096)  top1_acc: 0.5466  top5_acc: 0.8430
-Epoch[58] Batch[27250] - loss: 1.663340  ACC: 55.6885%(2281/4096)  top1_acc: 0.5569  top5_acc: 0.8418
-Epoch[59] Batch[27300] - loss: 1.610693  ACC: 57.8369%(2369/4096)  top1_acc: 0.5784  top5_acc: 0.8506
-Epoch[59] Batch[27350] - loss: 1.639410  ACC: 57.6416%(2361/4096)  top1_acc: 0.5764  top5_acc: 0.8530
-Epoch[59] Batch[27400] - loss: 1.676272  ACC: 56.3965%(2310/4096)  top1_acc: 0.5640  top5_acc: 0.8435
-Epoch[59] Batch[27450] - loss: 1.626530  ACC: 56.4697%(2313/4096)  top1_acc: 0.5647  top5_acc: 0.8547
-Epoch[59] Batch[27500] - loss: 1.634948  ACC: 56.4453%(2312/4096)  top1_acc: 0.5645  top5_acc: 0.8521
-Epoch[59] Batch[27550] - loss: 1.699408  ACC: 54.7119%(2241/4096)  top1_acc: 0.5471  top5_acc: 0.8452
-Epoch[59] Batch[27600] - loss: 1.677657  ACC: 55.7617%(2284/4096)  top1_acc: 0.5576  top5_acc: 0.8506
-Epoch[59] Batch[27650] - loss: 1.640447  ACC: 56.1279%(2299/4096)  top1_acc: 0.5613  top5_acc: 0.8596
-Epoch[59] Batch[27700] - loss: 1.696216  ACC: 55.7617%(2284/4096)  top1_acc: 0.5576  top5_acc: 0.8503
-Epoch[60] Batch[27750] - loss: 1.556054  ACC: 58.3984%(2392/4096)  top1_acc: 0.5840  top5_acc: 0.8628
-Epoch[60] Batch[27800] - loss: 1.615703  ACC: 58.1787%(2383/4096)  top1_acc: 0.5818  top5_acc: 0.8611
-Epoch[60] Batch[27850] - loss: 1.586800  ACC: 57.6904%(2363/4096)  top1_acc: 0.5769  top5_acc: 0.8591
-Epoch[60] Batch[27900] - loss: 1.567231  ACC: 57.2754%(2346/4096)  top1_acc: 0.5728  top5_acc: 0.8640
-Epoch[60] Batch[27950] - loss: 1.617983  ACC: 58.3740%(2391/4096)  top1_acc: 0.5837  top5_acc: 0.8618
-Epoch[60] Batch[28000] - loss: 1.621097  ACC: 57.0068%(2335/4096)  top1_acc: 0.5701  top5_acc: 0.8530
-Epoch[60] Batch[28050] - loss: 1.711251  ACC: 54.8096%(2245/4096)  top1_acc: 0.5481  top5_acc: 0.8508
-Epoch[60] Batch[28100] - loss: 1.691124  ACC: 55.9082%(2290/4096)  top1_acc: 0.5591  top5_acc: 0.8462
-Epoch[60] Batch[28150] - loss: 1.722501  ACC: 55.4688%(2272/4096)  top1_acc: 0.5547  top5_acc: 0.8423
-Epoch[60] Batch[28200] - loss: 1.690213  ACC: 57.3219%(1006/1755)  top1_acc: 0.5732  top5_acc: 0.8427
-############################################################Periodic Test############################################################
-model_eval data_iter 34
-Test[0] -  batch_top1_acc: 0.3645%  batch_top5_acc: 0.6616%
-Test[1] -  batch_top1_acc: 0.3828%  batch_top5_acc: 0.6709%
-Test[2] -  batch_top1_acc: 0.3572%  batch_top5_acc: 0.6592%
-Test[3] -  batch_top1_acc: 0.3723%  batch_top5_acc: 0.6594%
-Test[4] -  batch_top1_acc: 0.3816%  batch_top5_acc: 0.6646%
-Test[5] -  batch_top1_acc: 0.3728%  batch_top5_acc: 0.6692%
-Test[6] -  batch_top1_acc: 0.3801%  batch_top5_acc: 0.6743%
-Test[7] -  batch_top1_acc: 0.3538%  batch_top5_acc: 0.6519%
-Test[8] -  batch_top1_acc: 0.3811%  batch_top5_acc: 0.6731%
-Test[9] -  batch_top1_acc: 0.3679%  batch_top5_acc: 0.6663%
-Test[10] -  batch_top1_acc: 0.3733%  batch_top5_acc: 0.6536%
-Test[11] -  batch_top1_acc: 0.3777%  batch_top5_acc: 0.6748%
-Test[12] -  batch_top1_acc: 0.3721%  batch_top5_acc: 0.6558%
-Test[13] -  batch_top1_acc: 0.3679%  batch_top5_acc: 0.6763%
-Test[14] -  batch_top1_acc: 0.3752%  batch_top5_acc: 0.6704%
-Test[15] -  batch_top1_acc: 0.3684%  batch_top5_acc: 0.6680%
-Test[16] -  batch_top1_acc: 0.3630%  batch_top5_acc: 0.6633%
-Test[17] -  batch_top1_acc: 0.3696%  batch_top5_acc: 0.6746%
-Test[18] -  batch_top1_acc: 0.3599%  batch_top5_acc: 0.6619%
-Test[19] -  batch_top1_acc: 0.3706%  batch_top5_acc: 0.6667%
-Test[20] -  batch_top1_acc: 0.3745%  batch_top5_acc: 0.6675%
-Test[21] -  batch_top1_acc: 0.3716%  batch_top5_acc: 0.6741%
-Test[22] -  batch_top1_acc: 0.3711%  batch_top5_acc: 0.6724%
-Test[23] -  batch_top1_acc: 0.3660%  batch_top5_acc: 0.6531%
-Test[24] -  batch_top1_acc: 0.3706%  batch_top5_acc: 0.6677%
-Test[25] -  batch_top1_acc: 0.3547%  batch_top5_acc: 0.6677%
-Test[26] -  batch_top1_acc: 0.3667%  batch_top5_acc: 0.6606%
-Test[27] -  batch_top1_acc: 0.3738%  batch_top5_acc: 0.6741%
-Test[28] -  batch_top1_acc: 0.3564%  batch_top5_acc: 0.6567%
-Test[29] -  batch_top1_acc: 0.3665%  batch_top5_acc: 0.6602%
-Test[30] -  batch_top1_acc: 0.3796%  batch_top5_acc: 0.6565%
-Test[31] -  batch_top1_acc: 0.3755%  batch_top5_acc: 0.6589%
-Test[32] -  batch_top1_acc: 0.3687%  batch_top5_acc: 0.6609%
-Test[33] -  batch_top1_acc: 0.3610%  batch_top5_acc: 0.6618%
-Evaluation - loss: 0.000000  ACC: 36.9752%(50967/137841)  top1_acc: 0.3698%  top5_acc: 0.6650%
-test current performance
-[top1 ACC	top5 ACC]
-[0.3697521056869872, 0.6649690585529705]
-############################################################Over############################################################
-Epoch[61] Batch[28250] - loss: 1.638173  ACC: 55.9570%(2292/4096)  top1_acc: 0.5596  top5_acc: 0.8586
-Epoch[61] Batch[28300] - loss: 1.599106  ACC: 58.0566%(2378/4096)  top1_acc: 0.5806  top5_acc: 0.8655
-Epoch[61] Batch[28350] - loss: 1.629876  ACC: 56.9092%(2331/4096)  top1_acc: 0.5691  top5_acc: 0.8550
-Epoch[61] Batch[28400] - loss: 1.636461  ACC: 56.2744%(2305/4096)  top1_acc: 0.5627  top5_acc: 0.8564
-Epoch[61] Batch[28450] - loss: 1.719625  ACC: 54.9072%(2249/4096)  top1_acc: 0.5491  top5_acc: 0.8369
-Epoch[61] Batch[28500] - loss: 1.664626  ACC: 55.7617%(2284/4096)  top1_acc: 0.5576  top5_acc: 0.8481
-Epoch[61] Batch[28550] - loss: 1.638041  ACC: 56.4209%(2311/4096)  top1_acc: 0.5642  top5_acc: 0.8494
-Epoch[61] Batch[28600] - loss: 1.647620  ACC: 56.2988%(2306/4096)  top1_acc: 0.5630  top5_acc: 0.8506
-Epoch[61] Batch[28650] - loss: 1.695144  ACC: 55.4688%(2272/4096)  top1_acc: 0.5547  top5_acc: 0.8503
-Epoch[62] Batch[28700] - loss: 1.607620  ACC: 56.7139%(2323/4096)  top1_acc: 0.5671  top5_acc: 0.8547
-Epoch[62] Batch[28750] - loss: 1.517055  ACC: 59.3506%(2431/4096)  top1_acc: 0.5935  top5_acc: 0.8738
-Epoch[62] Batch[28800] - loss: 1.602740  ACC: 58.2031%(2384/4096)  top1_acc: 0.5820  top5_acc: 0.8606
-Epoch[62] Batch[28850] - loss: 1.563127  ACC: 58.0078%(2376/4096)  top1_acc: 0.5801  top5_acc: 0.8687
-Epoch[62] Batch[28900] - loss: 1.636263  ACC: 57.2510%(2345/4096)  top1_acc: 0.5725  top5_acc: 0.8530
-Epoch[62] Batch[28950] - loss: 1.594580  ACC: 58.4717%(2395/4096)  top1_acc: 0.5847  top5_acc: 0.8567
-Epoch[62] Batch[29000] - loss: 1.623895  ACC: 56.1035%(2298/4096)  top1_acc: 0.5610  top5_acc: 0.8577
-Epoch[62] Batch[29050] - loss: 1.625495  ACC: 56.6406%(2320/4096)  top1_acc: 0.5664  top5_acc: 0.8638
-Epoch[62] Batch[29100] - loss: 1.686291  ACC: 55.4932%(2273/4096)  top1_acc: 0.5549  top5_acc: 0.8418
-Epoch[63] Batch[29150] - loss: 1.570160  ACC: 57.3730%(2350/4096)  top1_acc: 0.5737  top5_acc: 0.8628
-Epoch[63] Batch[29200] - loss: 1.560541  ACC: 59.0332%(2418/4096)  top1_acc: 0.5903  top5_acc: 0.8601
-Epoch[63] Batch[29250] - loss: 1.566335  ACC: 58.4229%(2393/4096)  top1_acc: 0.5842  top5_acc: 0.8623
-Epoch[63] Batch[29300] - loss: 1.581520  ACC: 57.4951%(2355/4096)  top1_acc: 0.5750  top5_acc: 0.8599
-Epoch[63] Batch[29350] - loss: 1.584053  ACC: 58.0811%(2379/4096)  top1_acc: 0.5808  top5_acc: 0.8635
-Epoch[63] Batch[29400] - loss: 1.588395  ACC: 57.6172%(2360/4096)  top1_acc: 0.5762  top5_acc: 0.8657
-Epoch[63] Batch[29450] - loss: 1.594281  ACC: 57.2754%(2346/4096)  top1_acc: 0.5728  top5_acc: 0.8589
-Epoch[63] Batch[29500] - loss: 1.632289  ACC: 57.2510%(2345/4096)  top1_acc: 0.5725  top5_acc: 0.8552
-Epoch[63] Batch[29550] - loss: 1.670937  ACC: 56.5918%(2318/4096)  top1_acc: 0.5659  top5_acc: 0.8420
-Epoch[63] Batch[29600] - loss: 1.682086  ACC: 55.7617%(2284/4096)  top1_acc: 0.5576  top5_acc: 0.8457
-Epoch[64] Batch[29650] - loss: 1.572986  ACC: 58.3252%(2389/4096)  top1_acc: 0.5833  top5_acc: 0.8599
-Epoch[64] Batch[29700] - loss: 1.596646  ACC: 57.7393%(2365/4096)  top1_acc: 0.5774  top5_acc: 0.8586
-Epoch[64] Batch[29750] - loss: 1.592557  ACC: 57.3242%(2348/4096)  top1_acc: 0.5732  top5_acc: 0.8542
-Epoch[64] Batch[29800] - loss: 1.625566  ACC: 56.4209%(2311/4096)  top1_acc: 0.5642  top5_acc: 0.8552
-Epoch[64] Batch[29850] - loss: 1.580860  ACC: 57.7148%(2364/4096)  top1_acc: 0.5771  top5_acc: 0.8606
-Epoch[64] Batch[29900] - loss: 1.642522  ACC: 55.7129%(2282/4096)  top1_acc: 0.5571  top5_acc: 0.8494
-Epoch[64] Batch[29950] - loss: 1.560043  ACC: 58.0322%(2377/4096)  top1_acc: 0.5803  top5_acc: 0.8689
-Epoch[64] Batch[30000] - loss: 1.607676  ACC: 57.2021%(2343/4096)  top1_acc: 0.5720  top5_acc: 0.8586
-Epoch[64] Batch[30050] - loss: 1.588410  ACC: 57.5928%(2359/4096)  top1_acc: 0.5759  top5_acc: 0.8618
-Epoch[65] Batch[30100] - loss: 1.525005  ACC: 58.8867%(2412/4096)  top1_acc: 0.5889  top5_acc: 0.8684
-Epoch[65] Batch[30150] - loss: 1.509048  ACC: 58.4717%(2395/4096)  top1_acc: 0.5847  top5_acc: 0.8733
-Epoch[65] Batch[30200] - loss: 1.577083  ACC: 58.2520%(2386/4096)  top1_acc: 0.5825  top5_acc: 0.8660
-Epoch[65] Batch[30250] - loss: 1.557874  ACC: 58.2031%(2384/4096)  top1_acc: 0.5820  top5_acc: 0.8674
-Epoch[65] Batch[30300] - loss: 1.644771  ACC: 56.0303%(2295/4096)  top1_acc: 0.5603  top5_acc: 0.8535
-Epoch[65] Batch[30350] - loss: 1.632155  ACC: 56.6650%(2321/4096)  top1_acc: 0.5667  top5_acc: 0.8481
-Epoch[65] Batch[30400] - loss: 1.579990  ACC: 57.7393%(2365/4096)  top1_acc: 0.5774  top5_acc: 0.8689
-Epoch[65] Batch[30450] - loss: 1.574102  ACC: 57.9102%(2372/4096)  top1_acc: 0.5791  top5_acc: 0.8640
-Epoch[65] Batch[30500] - loss: 1.603300  ACC: 56.8359%(2328/4096)  top1_acc: 0.5684  top5_acc: 0.8557
-Epoch[65] Batch[30550] - loss: 1.556155  ACC: 59.3732%(1042/1755)  top1_acc: 0.5937  top5_acc: 0.8672
-############################################################Periodic Test############################################################
-model_eval data_iter 34
-Test[0] -  batch_top1_acc: 0.3713%  batch_top5_acc: 0.6628%
-Test[1] -  batch_top1_acc: 0.3706%  batch_top5_acc: 0.6631%
-Test[2] -  batch_top1_acc: 0.3689%  batch_top5_acc: 0.6594%
-Test[3] -  batch_top1_acc: 0.3625%  batch_top5_acc: 0.6687%
-Test[4] -  batch_top1_acc: 0.3779%  batch_top5_acc: 0.6587%
-Test[5] -  batch_top1_acc: 0.3650%  batch_top5_acc: 0.6638%
-Test[6] -  batch_top1_acc: 0.3511%  batch_top5_acc: 0.6516%
-Test[7] -  batch_top1_acc: 0.3643%  batch_top5_acc: 0.6548%
-Test[8] -  batch_top1_acc: 0.3813%  batch_top5_acc: 0.6685%
-Test[9] -  batch_top1_acc: 0.3679%  batch_top5_acc: 0.6616%
-Test[10] -  batch_top1_acc: 0.3672%  batch_top5_acc: 0.6655%
-Test[11] -  batch_top1_acc: 0.3633%  batch_top5_acc: 0.6611%
-Test[12] -  batch_top1_acc: 0.3594%  batch_top5_acc: 0.6572%
-Test[13] -  batch_top1_acc: 0.3606%  batch_top5_acc: 0.6594%
-Test[14] -  batch_top1_acc: 0.3750%  batch_top5_acc: 0.6682%
-Test[15] -  batch_top1_acc: 0.3667%  batch_top5_acc: 0.6653%
-Test[16] -  batch_top1_acc: 0.3535%  batch_top5_acc: 0.6497%
-Test[17] -  batch_top1_acc: 0.3621%  batch_top5_acc: 0.6606%
-Test[18] -  batch_top1_acc: 0.3635%  batch_top5_acc: 0.6609%
-Test[19] -  batch_top1_acc: 0.3655%  batch_top5_acc: 0.6482%
-Test[20] -  batch_top1_acc: 0.3630%  batch_top5_acc: 0.6467%
-Test[21] -  batch_top1_acc: 0.3660%  batch_top5_acc: 0.6650%
-Test[22] -  batch_top1_acc: 0.3604%  batch_top5_acc: 0.6572%
-Test[23] -  batch_top1_acc: 0.3674%  batch_top5_acc: 0.6626%
-Test[24] -  batch_top1_acc: 0.3604%  batch_top5_acc: 0.6592%
-Test[25] -  batch_top1_acc: 0.3762%  batch_top5_acc: 0.6663%
-Test[26] -  batch_top1_acc: 0.3618%  batch_top5_acc: 0.6599%
-Test[27] -  batch_top1_acc: 0.3711%  batch_top5_acc: 0.6660%
-Test[28] -  batch_top1_acc: 0.3645%  batch_top5_acc: 0.6658%
-Test[29] -  batch_top1_acc: 0.3579%  batch_top5_acc: 0.6492%
-Test[30] -  batch_top1_acc: 0.3696%  batch_top5_acc: 0.6584%
-Test[31] -  batch_top1_acc: 0.3652%  batch_top5_acc: 0.6687%
-Test[32] -  batch_top1_acc: 0.3623%  batch_top5_acc: 0.6548%
-Test[33] -  batch_top1_acc: 0.3610%  batch_top5_acc: 0.6584%
-Evaluation - loss: 0.000000  ACC: 36.5472%(50377/137841)  top1_acc: 0.3655%  top5_acc: 0.6602%
-test current performance
-[top1 ACC	top5 ACC]
-[0.36547181172510357, 0.6602389709883126]
-############################################################Over############################################################
-Epoch[66] Batch[30600] - loss: 1.473363  ACC: 60.5957%(2482/4096)  top1_acc: 0.6060  top5_acc: 0.8794
-Epoch[66] Batch[30650] - loss: 1.568671  ACC: 58.5449%(2398/4096)  top1_acc: 0.5854  top5_acc: 0.8645
-Epoch[66] Batch[30700] - loss: 1.596713  ACC: 57.6904%(2363/4096)  top1_acc: 0.5769  top5_acc: 0.8513
-Epoch[66] Batch[30750] - loss: 1.534373  ACC: 59.1064%(2421/4096)  top1_acc: 0.5911  top5_acc: 0.8691
-Epoch[66] Batch[30800] - loss: 1.600731  ACC: 57.8857%(2371/4096)  top1_acc: 0.5789  top5_acc: 0.8569
-Epoch[66] Batch[30850] - loss: 1.578831  ACC: 59.3506%(2431/4096)  top1_acc: 0.5935  top5_acc: 0.8562
-Epoch[66] Batch[30900] - loss: 1.591220  ACC: 57.4463%(2353/4096)  top1_acc: 0.5745  top5_acc: 0.8511
-Epoch[66] Batch[30950] - loss: 1.641904  ACC: 56.3232%(2307/4096)  top1_acc: 0.5632  top5_acc: 0.8499
-Epoch[66] Batch[31000] - loss: 1.656085  ACC: 56.8848%(2330/4096)  top1_acc: 0.5688  top5_acc: 0.8489
-Epoch[67] Batch[31050] - loss: 1.505483  ACC: 59.7656%(2448/4096)  top1_acc: 0.5977  top5_acc: 0.8740
-Epoch[67] Batch[31100] - loss: 1.524903  ACC: 58.8379%(2410/4096)  top1_acc: 0.5884  top5_acc: 0.8706
-Epoch[67] Batch[31150] - loss: 1.527213  ACC: 58.5938%(2400/4096)  top1_acc: 0.5859  top5_acc: 0.8716
-Epoch[67] Batch[31200] - loss: 1.544072  ACC: 58.7646%(2407/4096)  top1_acc: 0.5876  top5_acc: 0.8599
-Epoch[67] Batch[31250] - loss: 1.619807  ACC: 56.9336%(2332/4096)  top1_acc: 0.5693  top5_acc: 0.8574
-Epoch[67] Batch[31300] - loss: 1.585595  ACC: 58.0566%(2378/4096)  top1_acc: 0.5806  top5_acc: 0.8594
-Epoch[67] Batch[31350] - loss: 1.648037  ACC: 56.9092%(2331/4096)  top1_acc: 0.5691  top5_acc: 0.8523
-Epoch[67] Batch[31400] - loss: 1.578639  ACC: 57.7637%(2366/4096)  top1_acc: 0.5776  top5_acc: 0.8640
-Epoch[67] Batch[31450] - loss: 1.577391  ACC: 57.3730%(2350/4096)  top1_acc: 0.5737  top5_acc: 0.8662
-Epoch[68] Batch[31500] - loss: 1.513944  ACC: 58.8135%(2409/4096)  top1_acc: 0.5881  top5_acc: 0.8718
-Epoch[68] Batch[31550] - loss: 1.463616  ACC: 59.8877%(2453/4096)  top1_acc: 0.5989  top5_acc: 0.8723
-Epoch[68] Batch[31600] - loss: 1.509594  ACC: 59.1064%(2421/4096)  top1_acc: 0.5911  top5_acc: 0.8730
-Epoch[68] Batch[31650] - loss: 1.571351  ACC: 58.0811%(2379/4096)  top1_acc: 0.5808  top5_acc: 0.8613
-Epoch[68] Batch[31700] - loss: 1.580047  ACC: 58.4961%(2396/4096)  top1_acc: 0.5850  top5_acc: 0.8660
-Epoch[68] Batch[31750] - loss: 1.592979  ACC: 58.6670%(2403/4096)  top1_acc: 0.5867  top5_acc: 0.8599
-Epoch[68] Batch[31800] - loss: 1.611951  ACC: 56.8359%(2328/4096)  top1_acc: 0.5684  top5_acc: 0.8633
-Epoch[68] Batch[31850] - loss: 1.611522  ACC: 57.8369%(2369/4096)  top1_acc: 0.5784  top5_acc: 0.8533
-Epoch[68] Batch[31900] - loss: 1.592412  ACC: 58.0566%(2378/4096)  top1_acc: 0.5806  top5_acc: 0.8503
-Epoch[68] Batch[31950] - loss: 1.615816  ACC: 57.3730%(2350/4096)  top1_acc: 0.5737  top5_acc: 0.8596
-Epoch[69] Batch[32000] - loss: 1.454860  ACC: 60.2051%(2466/4096)  top1_acc: 0.6021  top5_acc: 0.8772
-Epoch[69] Batch[32050] - loss: 1.493409  ACC: 60.3271%(2471/4096)  top1_acc: 0.6033  top5_acc: 0.8677
-Epoch[69] Batch[32100] - loss: 1.538797  ACC: 58.8135%(2409/4096)  top1_acc: 0.5881  top5_acc: 0.8662
-Epoch[69] Batch[32150] - loss: 1.604852  ACC: 58.0322%(2377/4096)  top1_acc: 0.5803  top5_acc: 0.8547
-Epoch[69] Batch[32200] - loss: 1.539952  ACC: 58.6670%(2403/4096)  top1_acc: 0.5867  top5_acc: 0.8687
-Epoch[69] Batch[32250] - loss: 1.580061  ACC: 57.7393%(2365/4096)  top1_acc: 0.5774  top5_acc: 0.8538
-Epoch[69] Batch[32300] - loss: 1.556015  ACC: 58.0078%(2376/4096)  top1_acc: 0.5801  top5_acc: 0.8691
-Epoch[69] Batch[32350] - loss: 1.610640  ACC: 57.7148%(2364/4096)  top1_acc: 0.5771  top5_acc: 0.8621
-Epoch[69] Batch[32400] - loss: 1.561585  ACC: 58.1299%(2381/4096)  top1_acc: 0.5813  top5_acc: 0.8669
-Epoch[70] Batch[32450] - loss: 1.528326  ACC: 58.2520%(2386/4096)  top1_acc: 0.5825  top5_acc: 0.8708
-Epoch[70] Batch[32500] - loss: 1.491040  ACC: 60.5225%(2479/4096)  top1_acc: 0.6052  top5_acc: 0.8682
-Epoch[70] Batch[32550] - loss: 1.535717  ACC: 58.7891%(2408/4096)  top1_acc: 0.5879  top5_acc: 0.8662
-Epoch[70] Batch[32600] - loss: 1.526100  ACC: 58.7402%(2406/4096)  top1_acc: 0.5874  top5_acc: 0.8669
-Epoch[70] Batch[32650] - loss: 1.521472  ACC: 59.6680%(2444/4096)  top1_acc: 0.5967  top5_acc: 0.8662
-Epoch[70] Batch[32700] - loss: 1.527495  ACC: 59.0820%(2420/4096)  top1_acc: 0.5908  top5_acc: 0.8772
-Epoch[70] Batch[32750] - loss: 1.584436  ACC: 58.1543%(2382/4096)  top1_acc: 0.5815  top5_acc: 0.8616
-Epoch[70] Batch[32800] - loss: 1.581052  ACC: 57.7393%(2365/4096)  top1_acc: 0.5774  top5_acc: 0.8606
-Epoch[70] Batch[32850] - loss: 1.578447  ACC: 57.0801%(2338/4096)  top1_acc: 0.5708  top5_acc: 0.8647
-Epoch[70] Batch[32900] - loss: 1.506352  ACC: 60.0570%(1054/1755)  top1_acc: 0.6006  top5_acc: 0.8769
-############################################################Periodic Test############################################################
-model_eval data_iter 34
-Test[0] -  batch_top1_acc: 0.3606%  batch_top5_acc: 0.6626%
-Test[1] -  batch_top1_acc: 0.3606%  batch_top5_acc: 0.6477%
-Test[2] -  batch_top1_acc: 0.3704%  batch_top5_acc: 0.6565%
-Test[3] -  batch_top1_acc: 0.3623%  batch_top5_acc: 0.6577%
-Test[4] -  batch_top1_acc: 0.3542%  batch_top5_acc: 0.6426%
-Test[5] -  batch_top1_acc: 0.3618%  batch_top5_acc: 0.6565%
-Test[6] -  batch_top1_acc: 0.3650%  batch_top5_acc: 0.6565%
-Test[7] -  batch_top1_acc: 0.3625%  batch_top5_acc: 0.6526%
-Test[8] -  batch_top1_acc: 0.3679%  batch_top5_acc: 0.6619%
-Test[9] -  batch_top1_acc: 0.3643%  batch_top5_acc: 0.6567%
-Test[10] -  batch_top1_acc: 0.3528%  batch_top5_acc: 0.6497%
-Test[11] -  batch_top1_acc: 0.3645%  batch_top5_acc: 0.6643%
-Test[12] -  batch_top1_acc: 0.3560%  batch_top5_acc: 0.6465%
-Test[13] -  batch_top1_acc: 0.3674%  batch_top5_acc: 0.6606%
-Test[14] -  batch_top1_acc: 0.3743%  batch_top5_acc: 0.6699%
-Test[15] -  batch_top1_acc: 0.3669%  batch_top5_acc: 0.6699%
-Test[16] -  batch_top1_acc: 0.3723%  batch_top5_acc: 0.6545%
-Test[17] -  batch_top1_acc: 0.3835%  batch_top5_acc: 0.6675%
-Test[18] -  batch_top1_acc: 0.3777%  batch_top5_acc: 0.6687%
-Test[19] -  batch_top1_acc: 0.3511%  batch_top5_acc: 0.6548%
-Test[20] -  batch_top1_acc: 0.3740%  batch_top5_acc: 0.6741%
-Test[21] -  batch_top1_acc: 0.3650%  batch_top5_acc: 0.6516%
-Test[22] -  batch_top1_acc: 0.3594%  batch_top5_acc: 0.6521%
-Test[23] -  batch_top1_acc: 0.3657%  batch_top5_acc: 0.6604%
-Test[24] -  batch_top1_acc: 0.3606%  batch_top5_acc: 0.6475%
-Test[25] -  batch_top1_acc: 0.3621%  batch_top5_acc: 0.6514%
-Test[26] -  batch_top1_acc: 0.3735%  batch_top5_acc: 0.6667%
-Test[27] -  batch_top1_acc: 0.3726%  batch_top5_acc: 0.6587%
-Test[28] -  batch_top1_acc: 0.3513%  batch_top5_acc: 0.6514%
-Test[29] -  batch_top1_acc: 0.3669%  batch_top5_acc: 0.6768%
-Test[30] -  batch_top1_acc: 0.3796%  batch_top5_acc: 0.6716%
-Test[31] -  batch_top1_acc: 0.3669%  batch_top5_acc: 0.6504%
-Test[32] -  batch_top1_acc: 0.3630%  batch_top5_acc: 0.6548%
-Test[33] -  batch_top1_acc: 0.3666%  batch_top5_acc: 0.6573%
-Evaluation - loss: 0.000000  ACC: 36.5385%(50365/137841)  top1_acc: 0.3654%  top5_acc: 0.6583%
-test current performance
-[top1 ACC	top5 ACC]
-[0.36538475489876016, 0.6583164660732292]
-############################################################Over############################################################
-************************************************************The Last Test************************************************************
-model_eval data_iter 34
-Test[0] -  batch_top1_acc: 0.3523%  batch_top5_acc: 0.6479%
-Test[1] -  batch_top1_acc: 0.3528%  batch_top5_acc: 0.6489%
-Test[2] -  batch_top1_acc: 0.3689%  batch_top5_acc: 0.6653%
-Test[3] -  batch_top1_acc: 0.3601%  batch_top5_acc: 0.6523%
-Test[4] -  batch_top1_acc: 0.3796%  batch_top5_acc: 0.6519%
-Test[5] -  batch_top1_acc: 0.3628%  batch_top5_acc: 0.6614%
-Test[6] -  batch_top1_acc: 0.3682%  batch_top5_acc: 0.6492%
-Test[7] -  batch_top1_acc: 0.3618%  batch_top5_acc: 0.6704%
-Test[8] -  batch_top1_acc: 0.3445%  batch_top5_acc: 0.6462%
-Test[9] -  batch_top1_acc: 0.3699%  batch_top5_acc: 0.6592%
-Test[10] -  batch_top1_acc: 0.3689%  batch_top5_acc: 0.6621%
-Test[11] -  batch_top1_acc: 0.3706%  batch_top5_acc: 0.6597%
-Test[12] -  batch_top1_acc: 0.3674%  batch_top5_acc: 0.6509%
-Test[13] -  batch_top1_acc: 0.3787%  batch_top5_acc: 0.6729%
-Test[14] -  batch_top1_acc: 0.3606%  batch_top5_acc: 0.6628%
-Test[15] -  batch_top1_acc: 0.3599%  batch_top5_acc: 0.6624%
-Test[16] -  batch_top1_acc: 0.3655%  batch_top5_acc: 0.6538%
-Test[17] -  batch_top1_acc: 0.3699%  batch_top5_acc: 0.6553%
-Test[18] -  batch_top1_acc: 0.3635%  batch_top5_acc: 0.6509%
-Test[19] -  batch_top1_acc: 0.3740%  batch_top5_acc: 0.6704%
-Test[20] -  batch_top1_acc: 0.3606%  batch_top5_acc: 0.6619%
-Test[21] -  batch_top1_acc: 0.3662%  batch_top5_acc: 0.6592%
-Test[22] -  batch_top1_acc: 0.3635%  batch_top5_acc: 0.6658%
-Test[23] -  batch_top1_acc: 0.3691%  batch_top5_acc: 0.6616%
-Test[24] -  batch_top1_acc: 0.3582%  batch_top5_acc: 0.6641%
-Test[25] -  batch_top1_acc: 0.3640%  batch_top5_acc: 0.6594%
-Test[26] -  batch_top1_acc: 0.3728%  batch_top5_acc: 0.6567%
-Test[27] -  batch_top1_acc: 0.3672%  batch_top5_acc: 0.6504%
-Test[28] -  batch_top1_acc: 0.3687%  batch_top5_acc: 0.6577%
-Test[29] -  batch_top1_acc: 0.3704%  batch_top5_acc: 0.6448%
-Test[30] -  batch_top1_acc: 0.3633%  batch_top5_acc: 0.6592%
-Test[31] -  batch_top1_acc: 0.3682%  batch_top5_acc: 0.6636%
-Test[32] -  batch_top1_acc: 0.3669%  batch_top5_acc: 0.6660%
-Test[33] -  batch_top1_acc: 0.3636%  batch_top5_acc: 0.6588%
-Evaluation - loss: 0.000000  ACC: 36.5385%(50365/137841)  top1_acc: 0.3654%  top5_acc: 0.6583%
-last test performance
-	[top1 ACC	top5 ACC]
-	[0.36538475489876016, 0.6583164660732292]
-
-best_performance
-	[top1 ACC	top5 ACC]
-	[0.3873303298728245, 0.6882495048643001]
-************************************************************The Last Test Over************************************************************
-total time cost 32117.204750061035 seconds
