@@ -31,6 +31,16 @@ clf.fit(feature_name_train,labels_train)
 y_pred = clf.predict(feature_name_test)
 y_true = labels_test
 
+# ROC画图
+fpr, tpr, threshold = roc_curve(y_true, y_pred)  ###计算真正率和假正率
+roc_auc = auc(fpr,tpr)
+print(roc_auc)
+# PRC画图
+precision, recall, thresholds = precision_recall_curve(y_true, y_pred, pos_label=1)
+AP = average_precision_score(y_true, y_pred, average='macro', pos_label=1, sample_weight=None)
+
+# [fpr, tpr, roc_auc], [recall, precision, AP]
+
 score = accuracy_score(y_true, y_pred)
 
 print(score)
