@@ -9,7 +9,6 @@ from sklearn.naive_bayes import MultinomialNB
 from torch.utils.data import DataLoader, TensorDataset
 
 # 这里是只使用了“address”这个特征，模型使用了朴素贝叶斯
-# 数据集里面“address”为空的样本还没有删掉，所以这里还跑不了
 
 data = pd.read_csv('./data/POIs_dataset_test.csv')
 feature_address = data['address'].values
