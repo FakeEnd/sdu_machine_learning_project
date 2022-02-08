@@ -1,3 +1,4 @@
+#coding:utf-8
 import jieba
 import pandas as pd
 import torch
@@ -5,10 +6,12 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split
 from torch.utils.data import DataLoader, TensorDataset
 
+# import os
+# homedir = os.getcwd()
+# print(homedir)
 
-# -----¶ÁÈëcsvÎÄ¼ş¡¢·Ö´Ê¡¢Éè¶¨ºÃfeatureºÍlabel¡¢»®·ÖÑµÁ·¼¯Óë²âÊÔ¼¯-----
-# ÕâÀïµÄfeatureÖ»ÓÃÁË¡°name¡±ÄÇÒ»ÁĞ
-def dataset_create(filename='../data/POIs_dataset_test.csv'):
+# åˆ’åˆ†è®­ç»ƒé›†å’Œæµ‹è¯•é›†
+def dataset_create(filename= '/mnt/sdb/home/jjr/sdu-machine_learning/data/POIs_dataset_test.csv'):
 
     data = pd.read_csv(filename)
     feature_name = data['name'].values
@@ -29,5 +32,5 @@ def dataset_create(filename='../data/POIs_dataset_test.csv'):
 
 
 if __name__ == '__main__':
-    feature_name_train, feature_name_test, labels_train, labels_test = dataset_create("../data/process_data.csv")
+    feature_name_train, feature_name_test, labels_train, labels_test = dataset_create()
     print(feature_name_train, feature_name_test, labels_train, labels_test)
