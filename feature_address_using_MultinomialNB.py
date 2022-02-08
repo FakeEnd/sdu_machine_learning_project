@@ -2,7 +2,8 @@ import jieba
 import pandas as pd
 import torch
 from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.metrics import accuracy_score, roc_curve, auc, precision_recall_curve, average_precision_score
+from sklearn.metrics import accuracy_score, roc_curve, auc, precision_recall_curve, average_precision_score, \
+    precision_score, recall_score, cohen_kappa_score
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
 from torch.utils.data import DataLoader, TensorDataset
@@ -11,25 +12,25 @@ from torch.utils.data import DataLoader, TensorDataset
 # 数据集里面“address”为空的样本还没有删掉，所以这里还跑不了
 
 data = pd.read_csv('./data/POIs_dataset_test.csv')
-feature_name = data['address'].values
+feature_address = data['address'].values
 labels = data['type'].values
 
 tokenized_list = []
-for text in feature_name:
+for text in feature_address:
     words = [word for word in jieba.cut(text)]
     tokenized_list.append(' '.join(words))
 
 counter = CountVectorizer()
 counts = counter.fit_transform(tokenized_list)
-feature_name = torch.Tensor(counts.toarray())
+feature_address = torch.Tensor(counts.toarray())
 
-feature_name_train, feature_name_test, labels_train, labels_test = train_test_split(
-    feature_name, labels, test_size=0.15, random_state=66, stratify=labels)
+feature_address_train, feature_address_test, labels_train, labels_test = train_test_split(
+    feature_address, labels, test_size=0.15, random_state=66, stratify=labels)
 
 clf = MultinomialNB()
-clf.fit(feature_name_train,labels_train)
+clf.fit(feature_address_train,labels_train)
 
-y_pred = clf.predict(feature_name_test)
+y_pred = clf.predict(feature_address_test)
 y_true = labels_test
 
 # ROC画图
@@ -42,5 +43,13 @@ AP = average_precision_score(y_true, y_pred, average='macro', pos_label=1, sampl
 
 # [fpr, tpr, roc_auc], [recall, precision, AP]
 
-score = accuracy_score(y_true, y_pred)
-print(score)
+PrecisionScore = precision_score(y_true, y_pred, average='macro')
+AccuracyScore = accuracy_score(y_true, y_pred)
+RecallScore = recall_score(y_true, y_pred, average='macro')
+F1Score = 2 * RecallScore * PrecisionScore / (PrecisionScore + RecallScore)
+KappaScore = cohen_kappa_score(y_true, y_pred)
+print('精确率：', PrecisionScore)
+print('准确率：', AccuracyScore)
+print('召回率：', RecallScore)
+print('F1-score:', F1Score)
+print('KappaScore:', KappaScore)
