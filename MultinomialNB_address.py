@@ -22,6 +22,7 @@ for text in feature_address:
 counter = CountVectorizer()
 counts = counter.fit_transform(tokenized_list)
 feature_address = torch.Tensor(counts.toarray())
+print(feature_address.size())
 
 feature_address_train, feature_address_test, labels_train, labels_test = train_test_split(
     feature_address, labels, test_size=0.15, random_state=66, stratify=labels)
