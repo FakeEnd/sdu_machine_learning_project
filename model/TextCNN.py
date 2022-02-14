@@ -1,35 +1,43 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+from transformers import BertTokenizer
 
 
 class TextCNN(nn.Module):
     def __init__(self, config):
         super(TextCNN, self).__init__()
         self.config = config
-        self.kmer = config.kmer
 
-        self.filter_sizes = [1, 2, 4]
+        self.filter_sizes = [1, 2, 3, 4, 5, 8]
         self.embedding_dim = 128
-        dim_cnn_out = 768
+        dim_cnn_out = 23
         filter_num = 128
 
+        # 借用一下token编码
+        self.pretrainPath = '../pretrain/bert-base-chinese'
+        self.tokenizer = BertTokenizer.from_pretrained(self.pretrainPath)
+
         # self.filter_sizes = [int(fsz) for fsz in self.filter_sizes.split(',')]
-        self.embedding = nn.Embedding(4101, self.embedding_dim, padding_idx=0)
+        self.embedding = nn.Embedding(20000, self.embedding_dim, padding_idx=0)
         # self.embedding = nn.Embedding(69, self.embedding_dim, padding_idx=0)
 
         self.convs = nn.ModuleList(
             [nn.Conv2d(1, filter_num, (fsz, self.embedding_dim)) for fsz in self.filter_sizes])
 
-        self.linear = nn.Linear(len(self.filter_sizes) * filter_num, dim_cnn_out)
+        self.classification =nn.Linear(128, 23)
 
+        self.linear = nn.Sequential(
+            nn.Linear(len(self.filter_sizes) * filter_num, 128),
+            nn.ReLU(),
+        )
 
     def forward(self, seqs):
 
-        # print(token_seq)
+        seqs = list(seqs)
+        seqs_ids = self.tokenizer(seqs, return_tensors='pt', padding=True)["input_ids"].cuda()
 
-        # x = x.cuda()
-        x = self.embedding(seqs)  # 经过embedding,x的维度为(batch_size, max_len, embedding_dim)
+        x = self.embedding(seqs_ids)  # 经过embedding,x的维度为(batch_size, max_len, embedding_dim)
         # print('embedding x', x.size())
 
         # 经过view函数x的维度变为(batch_size, input_chanel=1, w=max_len, h=embedding_dim)
@@ -50,7 +58,11 @@ class TextCNN(nn.Module):
         # print('flatten x', len(x), [x_item.size() for x_item in x])
 
         # 将不同卷积核提取的特征组合起来,维度变为(batch, sum:outchanel*w*h)
-        representation = torch.cat(x, 1)
+        representation_origin = torch.cat(x, 1)
         # print('concat x', x.size()) torch.Size([320, 1024])
 
-        return representation
+        representation = self.linear(representation_origin)
+
+        output = self.classification(representation)
+
+        return output, representation

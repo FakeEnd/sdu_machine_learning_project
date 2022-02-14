@@ -9,7 +9,7 @@ from torch.utils.data import DataLoader, TensorDataset
 # -----读入csv文件、分词、设定好feature和label、划分训练集与测试集-----
 # 这里的feature只用了“name”那一列
 
-data = pd.read_csv('./data/POIs_dataset_test.csv')
+data = pd.read_csv('../data/POIs_dataset_test.csv')
 feature_name = data['name'].values
 labels = data['type'].values
 

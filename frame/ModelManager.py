@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 
-from model import Fusionbert, Classificationbert, Focal_Loss, FGM, PGD
+from model import Fusionbert, Classificationbert, TextCNN, Focal_Loss, FGM, PGD, bert_TextCNN_ensemble
 from sklearn.metrics import auc, roc_curve, precision_recall_curve, average_precision_score
 
 class ModelManager():
@@ -38,6 +38,10 @@ class ModelManager():
                 self.model = Fusionbert.FusionBERT(self.config)
             elif self.config.model == 'ClassificationBERT':
                 self.model = Classificationbert.ClassificationBERT(self.config)
+            elif self.config.model == 'TextCNN':
+                self.model = TextCNN.TextCNN(self.config)
+            elif self.config.model == 'ensemble':
+                self.model = bert_TextCNN_ensemble.Ensemble(self.config)
             else:
                 self.IOManager.log.Error('No Such Model')
             if self.config.cuda:
@@ -306,7 +310,7 @@ class ModelManager():
                 # print(label)
                 # logits, _ = self.model(name, address)
                 data = [name[i] + address[i] for i in range(len(label))]
-                logits, _ = self.model(name, address)
+                logits, _ = self.model(data)
                 train_loss = self.__get_loss(logits, label)
                 self.optimizer.zero_grad()
                 train_loss.backward()
@@ -387,7 +391,7 @@ class ModelManager():
                 # print(label)
                 # logits, _ = self.model(name, address)
                 data = [name[i] + address[i] for i in range(len(label))]
-                logits, representation = self.model(name, address)
+                logits, representation = self.model(data)
 
                 avg_test_loss += self.__get_loss(logits, label)
 

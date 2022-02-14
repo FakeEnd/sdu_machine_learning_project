@@ -10,7 +10,7 @@ from torch.utils.data import DataLoader, TensorDataset
 
 # 这里是只使用了“address”这个特征，模型使用了朴素贝叶斯
 
-data = pd.read_csv('./data/POIs_dataset_test.csv')
+data = pd.read_csv('../data/POIs_dataset_test.csv')
 feature_address = data['address'].values
 labels = data['type'].values
 

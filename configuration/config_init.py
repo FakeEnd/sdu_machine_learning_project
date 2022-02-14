@@ -36,7 +36,9 @@ def get_config():
 
     # ToDo 更改模型的种类
     # parse.add_argument('-model', type=str, default='ClassificationBERT', help='训练模型名称')
-    parse.add_argument('-model', type=str, default='FusionBERT', help='训练模型名称')
+    # parse.add_argument('-model', type=str, default='FusionBERT', help='训练模型名称')
+    # parse.add_argument('-model', type=str, default='TextCNN', help='训练模型名称')
+    parse.add_argument('-model', type=str, default='ensemble', help='训练模型名称')
 
     parse.add_argument('-interval-log', type=int, default=20, help='经过多少batch记录一次训练状态')
     parse.add_argument('-interval-test', type=int, default=1, help='经过多少epoch对测试集进行测试')

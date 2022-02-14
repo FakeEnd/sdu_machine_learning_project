@@ -11,7 +11,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn import svm, tree
 from torch.utils.data import DataLoader, TensorDataset
 
-data = pd.read_csv('./data/POIs_dataset_test.csv')
+data = pd.read_csv('../data/POIs_dataset_test.csv')
 feature_name = data['name'].values
 labels = data['type'].values
 
